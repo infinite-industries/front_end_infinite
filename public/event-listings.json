@@ -55,7 +55,7 @@
             "when":"Friday, January 19th, 2018 <br /> 5:00pm - 8:00pm",
             "time_start":"2018-01-19 17:00:00",
             "time_end": "2018-01-19 20:00:00",
-            "website": "www.transy.edu/morlan",
+            "website": "http://www.transy.edu/morlan",
             "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/39505350-f486-11e7-8236-7f890a213d88.jpg",
             "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/social/39505350-f486-11e7-8236-7f890a213d88_social.jpg",
             "venues":["Morland Gallery and Parachute Factory", "morland_gallery", "parachute_factory"],
