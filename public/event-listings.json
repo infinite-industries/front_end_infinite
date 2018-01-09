@@ -58,7 +58,7 @@
             "website": "http://www.transy.edu/morlan",
             "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/39505350-f486-11e7-8236-7f890a213d88.jpg",
             "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/social/39505350-f486-11e7-8236-7f890a213d88_social.jpg",
-            "venues":["Morland Gallery and Parachute Factory", "morland_gallery", "parachute_factory"],
+            "venues":["Morlan Gallery and Parachute Factory", "morland_gallery", "parachute_factory"],
             "admission_fee": "Free",
             "address": "undefined",
             "organizers":[""],
