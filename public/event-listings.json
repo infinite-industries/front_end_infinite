@@ -1,29 +1,4 @@
 [
-
-      {
-        "id":"e17de010-0129-11e8-9299-6f2bd18fbbe7",
-        "title":"Decide Today / Evolve / Through (Live) at Green Lantern",
-        "slug":"decide-today-/-evolve-/-through-(live)-at-green-lantern",
-        "when":"Sunday, February 4th, 2018 <br /> 9:00pm - 12:00am",
-        "time_start":"2018-02-04 21:00:00",
-        "time_end": "2018-02-05 24:00:00",
-        "website": "none",
-        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/e17de010-0129-11e8-9299-6f2bd18fbbe7.jpg",
-        "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/e17de010-0129-11e8-9299-6f2bd18fbbe7.jpg",
-        "venues":["The Green Lantern Bar"],
-        "admission_fee": "$5.00",
-        "address": "497 W 3rd St, Lexington, Kentucky 40508",
-        "organizers":[""],
-        "map_link":"https://goo.gl/maps/7qVeS821NtR2",
-        "brief_description":"Decide Today and Evolve on tour with local support from Through! Come on out for a dark night filled with beats!",
-        "description":"<p>Decide Today and Evolve on tour with local support from Through! Come on out for a dark night filled with beats!</p><p><br></p><p>Decide Today (OH)</p><p>https://decidetoday.bandcamp.com</p><p><br></p><p>Evolve (OH)</p><p>https://evolve23.bandcamp.com</p><p><br></p><p>Through</p><p><br></p><p>February 4th</p><p>Green Lantern</p><p>$5, doors at 9</p><p>BE :sunglasses:</p>",
-        "links":["none"],
-        "ticket_link":"none",
-        "fb_event_link":"https://www.facebook.com/events/1995353074067771",
-        "eventbrite_link":"none",
-        "bitly_link":"http://bit.ly/2BsSXH2",
-        "tags":["not-yet-implemented"]
-      },
       {
         "id":"9b338570-09ac-11e8-a384-c136ba21eae7",
         "title":"Lecture: Artist Residencies",
@@ -168,6 +143,33 @@
         "bitly_link":"http://bit.ly/2Dkqt78",
         "tags":["not-yet-implemented"]
       },
+      {
+              "id":"6db479b0-0b55-11e8-92b0-b7e73f5c6b4c",
+              "title":"Feeling the Distance + At Work",
+              "slug":"feeling-the-distance-at-work",
+              "when":"Thursday, February 15th, 2018 <br /> 4:30pm - 6:30pm",
+              "time_start":"2018-02-15 16:30:00",
+              "time_end": "2018-02-15 18:30:00",
+              "website": "http://finearts.uky.edu/savs",
+              "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/6db479b0-0b55-11e8-92b0-b7e73f5c6b4c.jpg",
+              "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/social/6db479b0-0b55-11e8-92b0-b7e73f5c6b4c_social.jpg",
+              "venues":["Bolivar Art Gallery - UK School of Art"],
+              "admission_fee": "none",
+              "address": "236 Bolivar St, Lexington, KY 40508",
+              "organizers":["Bolivar Art Gallery"],
+              "map_link":"https://goo.gl/maps/cFTbFbb7TmS2",
+              "brief_description":"Feeling the Distance // Kristina Estell At Work // Steve Armstrong February 15 - March 16, 2018 The Bolivar Gallery is pleased to present concurrent solo shows by artist Kristina Estell and Steve armstrong. During the run of the shows, graduating MFA students from UK’s School of Art / Visual Studies will also be presenting thesis exhibitions.",
+              "description":"<p><br></p><p><strong>Feeling the Distance // Kristina Estell</strong></p><p><strong>At Work // Steve Armstrong</strong></p><p><br></p><p><strong>February 15 - March 16, 2018</strong></p><p><br></p><p>The Bolivar Art Gallery is pleased to present concurrent solo shows by artist Kristina Estell and Steve Armstrong. During the run of the shows, graduating MFA students from UK’s School of Art / Visual Studies will also be presenting thesis exhibitions.&nbsp;</p><p><br></p><p>Thursday, February 15 @ 4:30- opening reception for Feeling the Distance, At Work, and MFA thesis show by <strong>Corrinne LeNeave</strong></p><p>Friday, February 16 @ noon- gallery talk with <strong>Steve Armstrong</strong></p><p>Thursday, March 1 @ 4:30- reception for MFA thesis show by <strong>Todd Herzberg</strong></p><p>Friday, March 2 @ noon- gallery talk with <strong>Kristina Estell</strong></p><p>Thursday, March 8 @ 4:30- reception for MFA thesis show by <strong>Madison Cowles Serna</strong></p><p>Friday, March 16 @ 5- Gallery Hop</p><p>    </p><p>*note: The BAG will be closed during UK spring break (March 12-16) but will open for         Lexington’s Gallery Hop</p><p><br></p><p><strong>Feeling the Distance // Kristina Estell</strong></p><p><br></p><p><em>Feeling the Distance</em> is a collaborative, international mail art project that began in 2015. Twenty-</p><p>two raw drywall boxes containing a single stone were mailed to locations within the US and</p><p>around the world. This exhibition displays the round-trip results of the project revealing the</p><p>physical impact of the varied geographic journeys.</p><p><br></p><p><strong>At Work // Steve Armstrong</strong></p><p><br></p><p>For the past year, Armstrong has been working in the SAVS wood shop as an artist-in-residence, creating his own work while also engaging and assisting students in their art making. The artist’s work is largely figurative and often involves a kinetic element, literally animating the sculptures in the gallery space.</p>",
+              "links":["none"],
+              "ticket_link":"none",
+              "fb_event_link":"https://www.facebook.com/events/153049988730298/",
+              "eventbrite_link":"none",
+              "bitly_link":"http://bit.ly/2GRHHYF",
+              "tags":["not-yet-implemented"]
+            },
+
+
+
       {
         "id":"28511d60-f5c0-11e7-b29c-3d0f97bed8ad",
         "title":"Ancient Warfare, Frederick The Younger, Italian Beaches at The Burl",
