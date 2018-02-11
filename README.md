@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan fermen
 - Mauris vel efficitur mauris, eget luctus lorem.
 - Morbi lacinia mauris vitae maximus efficitur.
 - Nunc finibus mauris quis orci interdum cursus et nec ex.
-- Sed semper pretium ipsum id fermentum. 
+- Sed semper pretium ipsum id fermentum.
 - Phasellus vitae tellus non urna lacinia placerat.
 
 ## Development Environment Setup
@@ -55,7 +55,7 @@ $ npm run watchify
 $ node server.js
 ```
 
-5. Point your browser to http://localhost:8080
+5. Point your browser to http://localhost:7779
 
 ## Environment Config
 
