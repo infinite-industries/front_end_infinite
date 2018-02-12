@@ -70,8 +70,8 @@
                 <v-card-actions style="width: 100%;">
                   <v-btn flat class="orange--text" @click.stop="ShowEvent(event.id)">More Info</v-btn>
                   <v-menu class="download-event-button" style="position: absolute; right: 0;" offset-y>
-                    <v-btn fab small color="white" slot="activator">
-                      <v-icon>event</v-icon>
+                    <v-btn fab small color="white" slot="activator" style="padding:0px;">
+                      <v-icon large style="font-size: 28px;">event</v-icon>
                     </v-btn>
                     <v-list style="background:white;">
                       <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType)">
