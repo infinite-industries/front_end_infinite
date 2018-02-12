@@ -100,17 +100,49 @@
             <span class="atc-style-blue">
               <a href="{{event.map_link}}" class="event-map-button" target="_new">Event Map</a>
             </span>
-            <span class="addtocalendar atc-style-blue">
-                <var class="atc_event">
-                  <var class="atc_date_start">{{event.time_start}}</var>
-                  <var class="atc_date_end">{{event.time_end}}</var>
-                  <var class="atc_timezone">America/Detroit</var>
-                  <var class="atc_title">{{event.title}}</var>
-                  <var class="atc_description">{{event.brief_description}}</var>
-                  <var class="atc_ical_filename">{{event.slug}}</var>
-                  <var class="atc_location">{{event.venues[0]}}</var>
-                </var>
-            </span>
+            <div class="infinite-dropdown">
+              <div class="infinite-button infinite-button-white dropbtn">
+                <a href="javascript:toggleDropdown()">Download Event</a>
+              </div>
+              <div id="calDropdown" class="infinite-dropdown-content">
+                <a href='javascript:addToCalendar(0)'>iCal</a>
+                <a href='javascript:addToCalendar(0)'>Outlook</a>
+                <a href='javascript:addToCalendar(1)'>Google Calendar</a>
+              </div>
+            </div>
+            <script>
+            function toggleDropdown() {
+              document.getElementById("calDropdown").classList.toggle("show");
+            }
+            //close dropdown(s) when you click outside
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("infinite-dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            function addToCalendar(type) {
+              const title = "{{event.title}}";
+              const desc = "{{event.brief_description}}";
+              const location = "{{event.address}}";
+              const time_start = "{{event.time_start}}";
+              const time_end = "{{event.time_end}}";
+              if (type == 0) { // .ics
+                window.open(`/calendar?title=${encodeURIComponent(title)}&description=${encodeURIComponent(desc)}&location=${encodeURIComponent(location)}&time_start=${encodeURIComponent(time_start)}&time_end=${encodeURIComponent(time_end)}`);
+              } else { // google cal
+                const time_start_formatted = moment(time_start).format('YYYYMMDDTHHmmss');
+                const time_end_formatted = moment(time_end).format('YYYYMMDDTHHmmss');
+                window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(desc)}&location=${encodeURIComponent(location)}`);
+              }
+            }
+            </script>
         </div>
       </div>
 
@@ -173,15 +205,7 @@
       js = d.createElement(s); js.id = id;
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=510767252621911";
       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <script type="text/javascript">(function () {
-      if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
-      if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
-          var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-          s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
-          s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
-          var h = d[g]('body')[0];h.appendChild(s); }})();
+    }(document, 'script', 'facebook-jssdk'));
 
 
       var clipboard = new Clipboard('.btn');
