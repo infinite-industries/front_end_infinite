@@ -12,6 +12,9 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+const calendar = require('./routes/calendar');
+app.use('/calendar', calendar);
+
 app.use(express.static('public'));
 
 app.get("/", function (request, response) {
