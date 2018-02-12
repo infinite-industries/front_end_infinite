@@ -67,15 +67,15 @@
                   </div>
                 </v-card-title>
 
-                <v-card-actions>
+                <v-card-actions style="width: 100%;">
                   <v-btn flat class="orange--text" @click.stop="ShowEvent(event.id)">More Info</v-btn>
-                  <v-menu class="download-event-button" offset-y>
+                  <v-menu class="download-event-button" style="position: absolute; right: 0;" offset-y>
                     <v-btn fab small color="white" slot="activator">
                       <v-icon>event</v-icon>
                     </v-btn>
-                    <v-list>
+                    <v-list style="background:white;">
                       <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType)">
-                        <v-list-tile-title>{{ calType }}</v-list-tile-title>
+                        <v-list-tile-title >{{ calType }}</v-list-tile-title>
                       </v-list-tile>
                     </v-list>
                   </v-menu>
