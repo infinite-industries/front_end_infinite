@@ -69,18 +69,18 @@
 
                 <v-card-actions>
                   <v-btn flat class="orange--text" @click.stop="ShowEvent(event.id)">More Info</v-btn>
-                  <span class="addtocalendar atc-style-blue">
-                      <var class="atc_event">
-                          <var class="atc_date_start">{{event.time_start}}</var>
-                          <var class="atc_date_end">{{event.time_end}}</var>
-                          <var class="atc_timezone">America/Detroit</var>
-                          <var class="atc_title">{{event.title}}</var>
-                          <var class="atc_description">{{event.brief_description}}</var>
-                          <var class="atc_ical_filename">{{event.slug}}</var>
-                          <var class="atc_location">{{event.venues[0]}}</var>
-                      </var>
-                  </span>
                 </v-card-actions>
+                <v-menu class="download-event-button" offset-y>
+                  <v-btn fab small color="white" slot="activator">
+                    <v-icon>event</v-icon>
+                  </v-btn>
+                  <v-list>
+                    <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType)">
+                      <v-list-tile-title>{{ calType }}</v-list-tile-title>
+                    </v-list-tile>
+                  </v-list>
+                </v-menu>
+
               </v-card>
             </v-flex>
           </template>
@@ -101,7 +101,8 @@ export default {
   data () {
     return {
       events: [],
-      drawer: false
+      drawer: false,
+      calTypes: ["iCal", "Outlook", "Google Calendar"]
     }
   },
   mounted: function(){
@@ -110,22 +111,23 @@ export default {
       .then(function (response) {
         console.log("data from server: ",response.data.events);
         self.events = response.data.events;
-
-        if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
-        if (window.ifaddtocalendar == undefined) {
-          window.ifaddtocalendar = 1;
-          var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-          s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
-          s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
-          var h = d[g]('body')[0];h.appendChild(s);
-        }
-
       })
       .catch(function (error) {
         console.log(error);
       });
   },
   methods: {
+    AddEventToCalendar(calType) {
+      if (calType === "iCal" || calType === "Outlook") {
+        // send event data to node layer to be converted into an .ics file
+        window.open(`/calendar?title=${encodeURIComponent(this.event.title)}&description=${encodeURIComponent(this.event.brief_description)}&location=${encodeURIComponent(this.event.address)}&time_start=${encodeURIComponent(this.event.time_start)}&time_end=${encodeURIComponent(this.event.time_end)}`);
+      } else if (calType === "Google Calendar") {
+        var time_start_formatted = moment(this.event.time_start).format('YYYYMMDDTHHmmss');
+        var time_end_formatted = moment(this.event.time_end).format('YYYYMMDDTHHmmss');
+
+        window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(this.event.title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(this.event.brief_description)}&location=${encodeURIComponent(this.event.address)}`);
+      }
+    },
     ShowEvent: function(event_id){
       console.log(event_id);
       window.location.assign('/event/'+ event_id);
