@@ -74,7 +74,7 @@
                       <v-icon large style="font-size: 28px;">event</v-icon>
                     </v-btn>
                     <v-list style="background:white;">
-                      <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType)">
+                      <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType, event)">
                         <v-list-tile-title >{{ calType }}</v-list-tile-title>
                       </v-list-tile>
                     </v-list>
@@ -96,7 +96,8 @@
 <script>
 
 import Axios from 'axios';
-// import AddToCallendar from 'addtocalendar'; NEED TO WRAP THIS
+import moment from 'moment'
+
 
 export default {
   data () {
@@ -118,15 +119,15 @@ export default {
       });
   },
   methods: {
-    AddEventToCalendar(calType) {
+    AddEventToCalendar(calType, event) {
       if (calType === "iCal" || calType === "Outlook") {
         // send event data to node layer to be converted into an .ics file
-        window.open(`/calendar?title=${encodeURIComponent(this.event.title)}&description=${encodeURIComponent(this.event.brief_description)}&location=${encodeURIComponent(this.event.address)}&time_start=${encodeURIComponent(this.event.time_start)}&time_end=${encodeURIComponent(this.event.time_end)}`);
+        window.open(`/calendar?title=${encodeURIComponent(event.title)}&description=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}&time_start=${encodeURIComponent(event.time_start)}&time_end=${encodeURIComponent(event.time_end)}`);
       } else if (calType === "Google Calendar") {
-        var time_start_formatted = moment(this.event.time_start).format('YYYYMMDDTHHmmss');
-        var time_end_formatted = moment(this.event.time_end).format('YYYYMMDDTHHmmss');
+        var time_start_formatted = moment(event.time_start).format('YYYYMMDDTHHmmss');
+        var time_end_formatted = moment(event.time_end).format('YYYYMMDDTHHmmss');
 
-        window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(this.event.title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(this.event.brief_description)}&location=${encodeURIComponent(this.event.address)}`);
+        window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}`);
       }
     },
     ShowEvent: function(event_id){
