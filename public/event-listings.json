@@ -1,28 +1,5 @@
 [
-      {
-        "id":"95842de0-09ad-11e8-a3bf-274543e0cd95",
-        "title":"Van Gogh at Bicycle Face",
-        "slug":"van-gogh-at-bicycle-face",
-        "when":"Monday, February 19th, 2018 <br /> 6:30pm - 9:00pm",
-        "time_start":"2018-02-19 18:30:00",
-        "time_end": "2018-02-19 21:00:00",
-        "website": "none",
-        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/75dbdc70-09af-11e8-8cbc-07a7bb8b4ebb.jpg",
-        "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/75dbdc70-09af-11e8-8cbc-07a7bb8b4ebb.jpg",
-        "venues":["Bicycle Face"],
-        "admission_fee": "$5.00",
-        "address": "331 E Short St, Lexington, KY 40507",
-        "organizers":[""],
-        "map_link":"https://goo.gl/maps/3oYFojSbLKD2",
-        "brief_description":"This place is super cool so we are going to do a SUPER cool project! We will be working with van Gogh on his two ear stage and beyond!",
-        "description":"<p>This place is super cool so we are going to do a SUPER cool project! We will be working with van Gogh on his two ear stage and beyond! $5 for the class (all materials are supplied) and ALWAYS tip your bartenders!</p>",
-        "links":["none"],
-        "ticket_link":"none",
-        "fb_event_link":"https://www.facebook.com/events/160611047897784",
-        "eventbrite_link":"none",
-        "bitly_link":"http://bit.ly/2nASHBv",
-        "tags":["not-yet-implemented"]
-      },
+
       {
         "id":"e2341020-fc9c-11e7-9d0a-e51bdd721b16",
         "title":"Thriving Artists Series: LEXINGTON DECONSTRUCTED",
@@ -71,7 +48,30 @@
         "bitly_link":"http://bit.ly/2BoKNz7",
         "tags":["not-yet-implemented"]
       },
-
+      {
+        "id":"3f98b0d0-1656-11e8-812a-37884d77e697",
+        "title":"LAVISH! New Work by Zoé Strecker ",
+        "slug":"lavish!-new-work-by-zoé-strecker-",
+        "when":"Friday, February 23rd, 2018 <br /> 5pm - 7pm",
+        "time_start":"2018-02-23 17:00:00",
+        "time_end": "2018-02-23 19:00:00",
+        "website": "http://www.transy.edu/about/arts/morlan/exhibitions",
+        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/3f98b0d0-1656-11e8-812a-37884d77e697.jpg",
+        "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/social/3f98b0d0-1656-11e8-812a-37884d77e697_social.jpg",
+        "venues":["Morlan Gallery"],
+        "admission_fee": "none",
+        "address": "300 N Broadway, Lexington, KY 40508",
+        "organizers":["Andrea Fisher, Zoé Strecker "],
+        "map_link":"https://goo.gl/maps/sCZ4P8bUkNw",
+        "brief_description":"The Lavish! installation sculpture by Zoé Strecker is a long-term project that features community-embroidered images of natural communities and organisms in the forests on Pine Mountain in the southeastern Kentucky",
+        "description":"<h4><strong style='background-color: transparent;'>February 23 – April 2, 2018</strong></h4><h4><strong style='background-color: transparent;'>LAVISH!: New Work by Zoé Strecker</strong></h4><p>The <em style=&#34;background-color: transparent;&#34;>Lavish!&nbsp;</em>installation sculpture by Zoé Strecker is a long-term project that features community-embroidered images of natural communities and organisms in the forests on Pine Mountain in the southeastern Kentucky. Stitched by volunteer embroiderers from across the country, the printed silk organza panels, hang within a circular, bent wood structure (22’ diameter by 10’ 4” high). This exhibition engages sight, sound, and smell and includes an active embroidery studio as well as a side exhibition titled “Inspired by Wild Places,” featuring the work of selected members of the Pine Mountain Collective: Rebecca Allan, Vallorie Henderson, Erika Strecker and Brian and Sara Turner.</p><p><a href='http://www.transy.edu/news/%E2%80%98lavish-opens-transylvania%E2%80%99s-morlan-gallery-feb-23' target='_blank'; style='color: rgb(157, 34, 53); background-color: transparent;'><strong>PRESS RELEASE</strong></a></p><p><strong style='background-color: transparent;'>Special Events and Hours</strong></p><p>All events are free, open to the public, and occur in Morlan Gallery---located on the main floor of the Mitchell Fine Arts Center.</p><p>Opening Reception for the Artists | Friday, February 23, 5-7 p.m., Morlan Gallery</p><p>Weekend Hours | Sunday, February 25, 6:30 -7:30 p.m., Morlan Gallery</p><p>Art Talk with Zoé Strecker | Thursday, March 8, 6 p.m., Morlan Gallery</p><p>Lexington Gallery Hop | Friday, March 16,&nbsp;5-8 p.m., Morlan Gallery</p><p><span style='background-color: transparent;'>Wild Things: Selected Artists from the Pine Mountain Sessions | Friday, March 23, 7-8:30 p.m., Carrick Theater, Mitchell Fine Arts Center. Kentucky musicians Daniel Martin Moore and Julia Purcell will perform original works, and poet and novelist Mary Ann Taylor-Hall will give a reading. Additionally, Rebecca Allan will give a short gallery talk in Morlan followed by a reception.</span></p><p><br></p>",
+        "links":["none"],
+        "ticket_link":"none",
+        "fb_event_link":"none",
+        "eventbrite_link":"none",
+        "bitly_link":"http://bit.ly/2sGWZfM",
+        "tags":["not-yet-implemented"]
+      },
       {
         "id":"3677abf0-1403-11e8-8119-2fe81f62012a",
         "title":"The Nude: Brutal Beauty Fourth Friday Closing Reception",
