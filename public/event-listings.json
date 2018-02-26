@@ -264,7 +264,30 @@
         "bitly_link":"http://bit.ly/2srfDrK",
         "tags":["not-yet-implemented"]
     },
-
+    {
+        "id":"7e5d11b0-1b12-11e8-880d-2520cd90ca5b",
+        "title":"Dark Necessities",
+        "slug":"dark-necessities",
+        "when":"Friday, April 6th, 2018 <br /> 5:00pm - 9:00pm",
+        "time_start":"2018-04-06 17:00:00",
+        "time_end": "2018-04-06 21:00:00",
+        "website": "none",
+        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/7e5d11b0-1b12-11e8-880d-2520cd90ca5b.jpg",
+        "social_image":"none",
+        "venues":["The Parachute Factory"],
+        "admission_fee": "none",
+        "address": "720 Bryan Ave. Lexington KY",
+        "organizers":[""],
+        "map_link":"https://goo.gl/maps/3BFZuB9ffa92",
+        "brief_description":"BFA thesis show. ",
+        "description":"<p>April 1-30, 2018</p><p>Reception: Friday, April 6th 5-9pm</p>",
+        "links":["none"],
+        "ticket_link":"none",
+        "fb_event_link":"none",
+        "eventbrite_link":"none",
+        "bitly_link":"http://bit.ly/2F9TLGm",
+        "tags":["not-yet-implemented"]
+      },
     {
         "id":"f1815e20-14ba-11e8-8679-b156215d9763",
         "title":"Dead Rider (Members of U.S. Maple) // Lung // Ford Theatre Reunion",
