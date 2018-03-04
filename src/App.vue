@@ -46,6 +46,7 @@
       <v-toolbar-title>Infinite Industries</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn outline class="indigo lighten-2" @click.stop="OpenEventSubmitter()">Submit Your Event</v-btn>
+      <v-btn outline class="indigo lighten-2" @click.stop="OpenEmailSubscribe()">Subscribe to our Mail List</v-btn>
     </v-toolbar>
     <main>
       <v-container fluid>
@@ -136,6 +137,9 @@ export default {
     },
     OpenEventSubmitter: function(){
       window.location.assign('https://event-add.glitch.me/');
+    },
+    OpenEmailSubscribe: function() {
+      window.location.assign('/subscribe-email');
     }
   }
 }

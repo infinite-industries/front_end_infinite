@@ -60,6 +60,12 @@ app.get("/event/:id", function(req, res){
     });
 })
 
+app.get('/subscribe-email', function(req, res) {
+  res.send(nunjucks.render(
+    'views/subscribe-email.html'
+  ));
+})
+
 
 // app.get('/event-listings', function(req, res){
 //   axios.get(process.env.API_URL+'/events?sort_field=time_start&verified=true')
