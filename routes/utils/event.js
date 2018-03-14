@@ -69,6 +69,11 @@ const Event = function(init_obj){
     }
   }
 
+  /*
+    TODO (CAW) Seems like this would be better handled in display logic,
+     persisting none as a string can complicate query logic down the road,
+     better to just leave it empty
+   */
   if(init_obj.hasOwnProperty('eventbrite_link')){
     if(init_obj.eventbrite_link === ""){
       this.eventbrite_link = "none"
@@ -78,18 +83,19 @@ const Event = function(init_obj){
     }
   }
 
-  if(init_obj.hasOwnProperty('website')){
-    if(init_obj.website === ""){
-      this.website = "none"
+  if(init_obj.hasOwnProperty('website_link')){
+    if(init_obj.website_link === ""){
+      this.website_link = "none"
     }
     else{
-      this.website = init_obj.website
+      this.website_link = init_obj.website_link
     }
   }
 
 }
 
 Event.prototype.Notify = function(){
+  // TODO (CAW) Why copy all this over to a string like this, can we just use stringify?
   var event_payload = `\n\{
         "id":"${this.id}",
         "title":"${this.title}",
@@ -97,7 +103,7 @@ Event.prototype.Notify = function(){
         "when":"${this.when}",
         "time_start":"${this.time_start}",
         "time_end": "${this.time_end}",
-        "website": "${this.website}",
+        "website_link": "${this.website_link}",
         "image":"${this.image}",
         "social_image":"${this.social_image}",
         "venues":["${this.venues}"],

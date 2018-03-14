@@ -214,7 +214,7 @@
           social_image:"",
           organizers:"",
           admission_fee:"none",
-          venue:"",
+          venue_id:"",
           brief_description:"",
           description:"",
           website_link:"",
@@ -253,7 +253,10 @@
 
         const formData = new FormData()
 
-        formData.append('event_data', JSON.stringify(this.new_event))
+        formData.append('event_data', JSON.stringify({
+          ... this.new_event,
+          organizers: this.new_event.organizers ? this.new_event.organizers.split(',') : []
+        }))
 
         formData.append('image', document.getElementById('event-image').files[0])
         formData.append('social_image', document.getElementById('event-social-image').files[0])
@@ -269,7 +272,7 @@
       },
       selectVenue: function(venue) {
         console.log(venue);
-        this.new_event.venue = venue.id;
+        this.new_event.venue_id = venue.id;
       }
     },
     mounted: function() {
