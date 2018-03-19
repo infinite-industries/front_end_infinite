@@ -4,7 +4,7 @@
   "description": "Prototype art event portal",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodejs server.js",
     "watchify": "watchify -vd -p browserify -e ./src/main.js -o ./public/js/dist.js",
     "production-build": "NODE_ENV=production browserify -g envify -e ./src/main.js | uglifyjs -c -m > ./public/js/dist.js",
     "test": "echo \"Error: no test specified\" && exit 1"

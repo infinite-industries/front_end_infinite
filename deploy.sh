@@ -4,10 +4,10 @@ USER='ubuntu'
 
 SERVER=''
 if [[ "production" = $1 ]]; then
-  ROOT='/home/ubuntu/app/new_mvp'
+  ROOT='/home/ubuntu/front_end_infinite'
   SERVER='infinite.industries'
 elif [[ "staging" = $1 ]]; then
-  ROOT='/home/ubuntu/new_mvp'
+  ROOT='/home/ubuntu/front_end_infinite'
   SERVER='staging.infinite.industries'
 else
   echo Please specify environment to deploy to.
@@ -29,9 +29,9 @@ ssh $USER@$SERVER << EOF
   echo 'Restarting'
   #npm run server-build
   #echo 'Building frontend js'
-  forever stop mvp
-  rm /home/$USER/.forever/mvp.log
-  forever start --uid mvp server.js
+  forever stop infinite
+  rm /home/$USER/.forever/infinite.log
+  forever start --uid infinite server.js
   echo 'Done!'
 EOF
 
