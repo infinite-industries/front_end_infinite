@@ -14,6 +14,8 @@ app.use(bodyParser.urlencoded({
 
 const calendar = require('./routes/calendar');
 app.use('/calendar', calendar);
+const analytics = require('./routes/analytics');
+app.use('/analytics', analytics);
 
 app.use(express.static('public'));
 

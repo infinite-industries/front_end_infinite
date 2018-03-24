@@ -105,8 +105,9 @@
 
 <script>
 
-import Axios from 'axios';
+import Axios from 'axios'
 import moment from 'moment'
+import InfiniteAnalytics from './helpers/infinite-analytics'
 
 
 export default {
@@ -120,16 +121,18 @@ export default {
   mounted: function(){
     var self = this;
     Axios.get('/event-listings')
-      .then(function (response) {
-        console.log("data from server: ",response.data.events);
-        self.events = response.data.events;
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+    .then(function (response) {
+      console.log("data from server: ",response.data.events);
+      self.events = response.data.events;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
   },
   methods: {
     AddEventToCalendar(calType, event) {
+      InfiniteAnalytics({event:event.id, cal_type: calType, user_agent:navigator.userAgent})
+
       if (calType === "iCal" || calType === "Outlook") {
         // send event data to node layer to be converted into an .ics file
         window.open(`/calendar?title=${encodeURIComponent(event.title)}&description=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}&time_start=${encodeURIComponent(event.time_start)}&time_end=${encodeURIComponent(event.time_end)}`);
