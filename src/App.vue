@@ -131,7 +131,7 @@ export default {
   },
   methods: {
     AddEventToCalendar(calType, event) {
-      InfiniteAnalytics({event:event.id, cal_type: calType, user_agent:navigator.userAgent})
+      InfiniteAnalytics({event:event.id, action_type:"add_event_to_cal", cal_type: calType, user_agent:navigator.userAgent})
 
       if (calType === "iCal" || calType === "Outlook") {
         // send event data to node layer to be converted into an .ics file
