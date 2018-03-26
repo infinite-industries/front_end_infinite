@@ -131,7 +131,14 @@ export default {
   },
   methods: {
     AddEventToCalendar(calType, event) {
-      InfiniteAnalytics({event:event.id, action_type:"add_event_to_cal", cal_type: calType, user_agent:navigator.userAgent})
+      console.log('!!! HERE: ' + JSON.stringify(event, null, 4))
+      InfiniteAnalytics({
+        event_id : event.id,
+        action_type: "calendar_add",
+        view_type: "card",
+        calendar_type: calType,
+        user_agent: navigator.userAgent
+      })
 
       if (calType === "iCal" || calType === "Outlook") {
         // send event data to node layer to be converted into an .ics file
@@ -143,8 +150,14 @@ export default {
         window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}`);
       }
     },
-    ShowEvent: function(event_id){
-      console.log(event_id);
+    ShowEvent: function(event_id) {
+      InfiniteAnalytics({
+        event_id,
+        action_type: "expand_view",
+        view_type: "card",
+        user_agent: navigator.userAgent
+      })
+
       window.location.assign('/event/'+ event_id);
     },
     OpenEventSubmitter: function(){
