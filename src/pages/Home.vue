@@ -1,5 +1,6 @@
 <template>
   <v-container fluid>
+    <h1>Upcoming Events:</h1>
      <v-layout row wrap>
 
       <template v-for= "event in events">

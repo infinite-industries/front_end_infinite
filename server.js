@@ -13,7 +13,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 const calendar = require('./routes/calendar');
+const venues = require('./routes/venues');
 app.use('/calendar', calendar);
+app.use('/venues', venues);
 
 app.use(express.static('public'));
 
