@@ -2,7 +2,7 @@
   <v-app id="example-1" toolbar>
     <v-toolbar class="indigo" dark fixed>
       <!-- <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon> -->
-      <v-toolbar-title>
+      <v-toolbar-title @click="OpenHome()" class="clickable">
         <span class="hidden-sm-and-down">Infinite Industries</span>
         <span class="hidden-md-and-up">I.I</span>
       </v-toolbar-title>
@@ -31,6 +31,9 @@ export default {
     }
   },
   methods: {
+    OpenHome: function() {
+      this.$router.push({ path: "/" })
+    },
     OpenEventSubmitter: function(){
       this.$router.push({ path: "/submit-event" })
     },
@@ -43,5 +46,8 @@ export default {
 <style scoped>
 .transparent {
   background: transparent!important;
+}
+.clickable {
+  cursor: pointer;
 }
 </style>
