@@ -295,7 +295,30 @@
        "bitly_link":"http://bit.ly/2GvWH0L",
        "tags":["not-yet-implemented"]
      },
-
+     {
+            "id":"3d2bae90-3449-11e8-9761-a7700f06d09d",
+            "title":"Agnosiophobia: The Fear of Not Knowing",
+            "slug":"agnosiophobia-the-fear-of-not-knowing",
+            "when":"Friday, April 13th, 2018 <br /> 4PM - 7PM",
+            "time_start":"2018-04-13 16:00:00",
+            "time_end": "2018-04-13 19:00:00",
+            "website": "https://www.transy.edu/morlan",
+            "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/3d2bae90-3449-11e8-9761-a7700f06d09d.jpg",
+            "social_image":"none",
+            "venues":["Morlan Gallery"],
+            "admission_fee": "none",
+            "address": "300 N Broadway, Lexington, KY 40508",
+            "organizers":["Andrea Fisher"],
+            "map_link":"https://goo.gl/maps/sCZ4P8bUkNw",
+            "brief_description":"Five Transylvania University studio art majors present their thesis works in Morlan Gallery from April 9-16.",
+            "description":"<p>Five Transylvania University studio art majors will present their thesis works in&nbsp;<a href=&#34;http://www.transy.edu/about/morlan&#34; target=&#34;_blank&#34; style=&#34;color: rgb(157, 34, 53);&#34;>Morlan Gallery</a>&nbsp;from April 9-16 in an exhibition titled “Agnosiophobia: The Fear of Not Knowing.”</p><p>The public is invited to brief art talks in the gallery by each senior about their works from 4-5 p.m. Friday, April 13. A reception will follow.</p><p>The graduating studio art majors are Jessica Chandler, from Louisville, Ky.; Claire Gardner, from Lexington; Annelisa Hermosilla, from Panama City, Panama; Samantha Klintworth, from Westerville, Ohio; and Poppy Liu, from Chengdu, China.</p><p>Morlan Gallery—which is on the main level of Transylvania's&nbsp;<a href=&#34;http://www.transy.edu/about/campus-map&#34; target=&#34;_blank&#34; style=&#34;color: rgb(157, 34, 53);&#34;>Mitchell Fine Arts Center</a>—is open weekdays, noon to 5 p.m., and by special appointment. Free, nearby parking is available. For an appointment, call Morlan Gallery Director Andrea Fisher 24 hours prior to viewing at (859) 233-8142.&nbsp;</p><p><br></p>",
+            "links":["none"],
+            "ticket_link":"none",
+            "fb_event_link":"https://www.facebook.com/events/152417138916245/",
+            "eventbrite_link":"none",
+            "bitly_link":"http://bit.ly/2Igvhcy",
+            "tags":["not-yet-implemented"]
+          },
      {
        "id":"76a5bcd0-3217-11e8-aba2-6b4d17179169",
        "title":"Sound + Color (a benefit for heARTplay and MusicWorks)",
