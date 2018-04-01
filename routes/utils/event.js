@@ -106,6 +106,7 @@ Event.prototype.Notify = function(){
         "image":"${this.image}",
         "social_image":"${this.social_image}",
         "venues":["${this.venues}"],
+        "venue_id":"${this.venue_id}",
         "admission_fee": "${this.admission_fee}",
         "address": "${this.address}",
         "organizers":["${this.organizers}"],

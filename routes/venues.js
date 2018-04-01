@@ -5,6 +5,7 @@ const slack = require('./utils/slackNotify');
 const { makeAPICall } = require('./utils/requestHelper');
 const dotenv = require('dotenv');
 const axios = require('axios');
+const uuidv4 = require('uuid/v4')
 
 dotenv.load();
 
@@ -36,10 +37,11 @@ router.get('/', (req, res) => {
 
 router.post('/submit-new', (req, res) => {
   let new_venue = req.body;
+  new_venue.id = uuidv4();
   new_venue.approved = false;
   console.log(new_venue);
-  slack.Notify("test", JSON.stringify(new_venue));
-  res.json({"status":"success"});
+  slack.Notify("test", "New Venue:\n" + JSON.stringify(new_venue));
+  res.json({status: "success", venue: new_venue });
 })
 
 module.exports = router;

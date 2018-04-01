@@ -84,7 +84,7 @@
         <h3 class="form-label">Select a Venue<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
-        <venue-picker :venues="venues" @selectVenue="selectVenue"></venue-picker>
+        <venue-picker ref="venuePicker" :venues="venues" @selectVenue="selectVenue"></venue-picker>
       </v-flex>
       <v-flex xs0 sm3></v-flex>
       <v-flex xs12 sm8>
@@ -171,14 +171,14 @@
     </v-layout>
 
     <!-- Organizers -->
-    <v-layout row wrap>
+    <!-- <v-layout row wrap>
       <v-flex xs12 sm3>
         <h3 class="form-label">Organizers:</h3>
       </v-flex>
       <v-flex xs12 sm8>
         <v-text-field label="Please use commas to separate" v-model="new_event.organizers"></v-text-field>
       </v-flex>
-    </v-layout>
+    </v-layout> -->
 
     <!-- Admission Fee -->
     <v-layout row wrap>
@@ -193,10 +193,10 @@
     <!-- Organizer Contact -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Organizer Contact:</h3>
+        <h3 class="form-label">Organizer Contact<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
-        <v-text-field v-model="new_event.organizer_contact"></v-text-field>
+        <v-text-field v-model="new_event.organizer_contact" :rules="[v => !!v || 'Organizer Contact is required']"></v-text-field>
       </v-flex>
     </v-layout>
 
@@ -405,12 +405,21 @@
       },
       submitNewVenue: function() {
         this.showVenueLoadingSpinner = true;
-        console.log(this.new_venue);
-        
         Axios.post('/venues/submit-new', this.new_venue).then( response => {
           this.showVenueLoadingSpinner = false;
           this.$refs.expansionPanelContent.isActive = false;
-          console.log(response);
+          if (response.data.status == "success") {
+            this.venues.push(response.data.venue);
+            this.$refs.venuePicker.selectVenue(response.data.venue);
+            this.new_venue = {
+              name: "",
+              address: "",
+              city: "",
+              zip: "",
+              neighborhood: "",
+              google_maps_link: ""
+            }
+          }
         }).catch( err => {
           console.log(err);
         })
@@ -418,7 +427,7 @@
       selectVenue: function(venue) {
         console.log(venue);
         this.new_event.venue_id = venue.id;
-
+        this.new_event.address = venue.address;
       },
       toggleVenueDropdown: function() {
         this.showAddVenue = !this.showAddVenue;
@@ -431,9 +440,8 @@
         console.log(event);
         this.promoHTML = `<h2>${event.title}</h2>`;
         this.promoHTML += `<p><b>Description: </b>${event.brief_description}</p>`;
+        this.promoHTML += `<p><b>When: </b>${event.when}</p>`;
         this.promoHTML += `<p><b>Location: </b>${event.address}</p>`;
-        this.promoHTML += `<p><b>Start Time: </b>${event.time_start}</p>`;
-        this.promoHTML += `<p><b>End Time: </b>${event.time_end}</p>`;
         this.promoHTML += `<p><b>Link for More Info: </b><a href="${event.website_link}">${event.website_link}</a></p>`;
         this.promoHTML += `<p><b>Organizer Contact: </b>${event.organizer_contact}</p>`;
 
@@ -486,6 +494,7 @@
           this.new_event.time_start != "" &&
           this.new_event.time_end != "" &&
           this.new_event.venue_id != "" &&
+          this.new_event.organizer_contact != "" &&
           this.imageChosen > 0 &&
           this.new_event.brief_description != "";
       },
