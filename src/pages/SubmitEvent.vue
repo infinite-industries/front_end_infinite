@@ -402,6 +402,8 @@
       },
       submitNewVenue: function() {
         this.showVenueLoadingSpinner = true;
+        console.log(this.new_venue);
+        
         Axios.post('/venues/submit-new', this.new_venue).then( response => {
           this.showVenueLoadingSpinner = false;
           console.log(response);

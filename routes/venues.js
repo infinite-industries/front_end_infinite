@@ -1,11 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const bodyParser = require('body-parser');
+const slack = require('./utils/slackNotify');
 const { makeAPICall } = require('./utils/requestHelper');
 
 router.use(bodyParser.urlencoded({
     extended: true
 }));
+
+router.use(bodyParser.json());
 
 router.get('/', (req, res) => {
 
@@ -181,9 +184,8 @@ router.post('/submit-new', (req, res) => {
   let new_venue = req.body;
   new_venue.approved = false;
   console.log(new_venue);
-  setTimeout( () => {
-    res.json({ success: true });
-  }, 1000);
+  slack.Notify("test", JSON.stringify(new_venue));
+  res.json({"status":"success"});
 })
 
 module.exports = router;
