@@ -269,8 +269,14 @@
     <!-- Promo tools -->
     <div class="collapsible-content" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
       <h1>Event Promotion Tools:</h1>
-      <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
       <p>
+          Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
+          a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below. If you
+          have any suggestions for additional featured just reach out to us.  
+      </p>
+      <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
+
+      <!-- <p>
         Note: Many email servers treat automated email as spam. For the best results simply copy
         and paste the text above into your own email. Email sender forms below are still experimental but we
         are working on delivery confirmation feature which will make the whole process much, much smoother.
@@ -301,7 +307,7 @@
         <div class="text-xs-center">
           <v-btn color="primary" @click="sendEmails">Send Promo Email</v-btn>
         </div>
-      </v-layout>
+      </v-layout> -->
     </div>
 
   </v-container>
@@ -406,7 +412,7 @@
       submitNewVenue: function() {
         this.showVenueLoadingSpinner = true;
         console.log(this.new_venue);
-        
+
         Axios.post('/venues/submit-new', this.new_venue).then( response => {
           this.showVenueLoadingSpinner = false;
           this.$refs.expansionPanelContent.isActive = false;
