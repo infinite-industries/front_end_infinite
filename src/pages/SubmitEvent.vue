@@ -27,11 +27,11 @@
             prepend-icon="event"
             readonly
           ></v-text-field>
-          <v-date-picker v-model="new_event.date" no-title scrollable class="nomargin">
+          <v-date-picker v-model="new_event.date" no-title class="nomargin">
             <template slot-scope="{ save, cancel }">
               <v-card-actions>
-                <v-btn flat color="primary" @click="cancel">Cancel</v-btn>
-                <v-btn flat color="primary" @click="save">OK</v-btn>
+                <v-btn flat color="primary" @click.native="cancel()">Cancel</v-btn>
+                <v-btn flat color="primary" @click.native="save()">OK</v-btn>
               </v-card-actions>
             </template>
           </v-date-picker>
@@ -72,7 +72,7 @@
         <input type="file" class="form-control" id="event-social-image" name="event_social_image">
       </v-flex>
       <v-flex xs8 offset-xs3>
-        <em>Image optimized for sharing on various social media platforms (recommended size )</em>
+        <em>Image optimized for sharing on various social media platforms (recommended size)</em>
       </v-flex>
     </v-layout>
 
@@ -81,94 +81,82 @@
       <v-flex xs12 sm3>
         <h3 class="form-label">Select a Venue:</h3>
       </v-flex>
-      <v-flex xs7 sm5>
+      <v-flex xs12 sm8>
         <venue-picker :venues="venues" @selectVenue="selectVenue"></venue-picker>
       </v-flex>
-      <v-flex xs1 sm1>
-        <p style="margin-top: 20px; text-align: center;">OR</p>
+      <v-flex xs0 sm3></v-flex>
+      <v-flex xs12 sm8>
+        <p style="margin: 10px 0px 10px 0px; text-align: center;">OR</p>
       </v-flex>
-      <v-flex xs4 sm2 style="margin-top: 6px">
+      <!-- <v-flex xs4 sm2 style="margin-top: 6px">
         <v-btn color="info" @click="toggleVenueDropdown()">Add a Venue</v-btn>
-      </v-flex>
+      </v-flex> -->
     </v-layout>
 
     <!-- Add a Venue (collapsible content)-->
-    <v-card class="collapsible-content" :class="{ expanded: showAddVenue }">
+    <v-layout row>
+      <v-flex xs0 sm3></v-flex>
+      <v-flex xs12 sm8>
+        <v-expansion-panel expand style="margin-bottom: 10px;">
+          <v-expansion-panel-content style="padding: 0px 15px 0px 15px;">
+            <div slot="header">Add a New Venue:</div>
 
-      <v-card-title>
-        <h1>New Venue:</h1>
-      </v-card-title>
+            <!-- Venue Name -->
+            <v-layout row wrap>
+              <v-flex xs12>
+                <v-text-field label="Venue Name*" v-model="new_venue.name"></v-text-field>
+              </v-flex>
+            </v-layout>
 
-      <!-- Venue Name -->
-      <v-layout row wrap>
-        <v-flex xs12 sm3>
-          <h3 class="form-label">Venue Name:</h3>
-        </v-flex>
-        <v-flex xs12 sm8>
-          <v-text-field v-model="new_venue.name"></v-text-field>
-        </v-flex>
-      </v-layout>
+            <!-- Venue Address -->
+            <v-layout row wrap>
+              <v-flex xs12>
+                <v-text-field label="Address*" v-model="new_venue.address"></v-text-field>
+              </v-flex>
+            </v-layout>
 
-      <!-- Venue Address -->
-      <v-layout row wrap>
-        <v-flex xs12 sm3>
-          <h3 class="form-label">Venue Address:</h3>
-        </v-flex>
-        <v-flex xs12 sm8>
-          <v-text-field v-model="new_venue.address"></v-text-field>
-        </v-flex>
-      </v-layout>
+            <!-- City -->
+            <v-layout row wrap>
+              <v-flex xs12>
+                <v-text-field label="City*" v-model="new_venue.city"></v-text-field>
+              </v-flex>
+            </v-layout>
 
-      <!-- City -->
-      <v-layout row wrap>
-        <v-flex xs12 sm3>
-          <h3 class="form-label">City:</h3>
-        </v-flex>
-        <v-flex xs12 sm8>
-          <v-text-field v-model="new_venue.city"></v-text-field>
-        </v-flex>
-      </v-layout>
+            <!-- Zip -->
+            <v-layout row wrap>
+              <v-flex xs12>
+                <v-text-field label="Zip Code*" v-model="new_venue.zip"></v-text-field>
+              </v-flex>
+            </v-layout>
 
-      <!-- Zip -->
-      <v-layout row wrap>
-        <v-flex xs12 sm3>
-          <h3 class="form-label">Zip Code:</h3>
-        </v-flex>
-        <v-flex xs12 sm8>
-          <v-text-field v-model="new_venue.zip"></v-text-field>
-        </v-flex>
-      </v-layout>
+            <!-- Neighborhood -->
+            <v-layout row wrap>
+              <v-flex xs12>
+                <v-text-field label="Neighborhood" v-model="new_venue.neighborhood"></v-text-field>
+              </v-flex>
+            </v-layout>
 
-      <!-- Neighborhood -->
-      <v-layout row wrap>
-        <v-flex xs12 sm3>
-          <h3 class="form-label">Neighborhood:</h3>
-        </v-flex>
-        <v-flex xs12 sm8>
-          <v-text-field v-model="new_venue.neighborhood"></v-text-field>
-        </v-flex>
-      </v-layout>
+            <!-- G-maps Link -->
+            <v-layout row wrap>
+              <v-flex xs12>
+                <v-text-field label="Google Maps Link" v-model="new_venue.google_maps_link"></v-text-field>
+              </v-flex>
+            </v-layout>
 
-      <!-- G-maps Link -->
-      <v-layout row wrap>
-        <v-flex xs12 sm3>
-          <h3 class="form-label">Google Maps Link:</h3>
-        </v-flex>
-        <v-flex xs12 sm8>
-          <v-text-field v-model="new_venue.google_maps_link"></v-text-field>
-        </v-flex>
-      </v-layout>
+            <v-layout row wrap>
+              <v-flex xs12 style="text-align: center">
+                <v-btn color="success" @click="submitNewVenue()">Add Venue</v-btn>
+              </v-flex>
+              <v-flex xs12 style="text-align: center">
+                <img v-if="showVenueLoadingSpinner" class="loading-spinner" src="images/spinner.gif"></img>
+              </v-flex>
+            </v-layout>
 
-      <v-layout row wrap>
-        <v-flex xs12 style="text-align: center">
-          <v-btn color="success" @click="submitNewVenue()">Add Venue</v-btn>
-        </v-flex>
-        <v-flex xs12 style="text-align: center">
-          <img v-if="showVenueLoadingSpinner" class="loading-spinner" src="images/spinner.gif"></img>
-        </v-flex>
-      </v-layout>
+          </v-expansion-panel-content>
 
-    </v-card>
+        </v-expansion-panel>
+      </v-flex>
+    </v-layout>
 
     <!-- Brief Description -->
     <v-layout row wrap>
