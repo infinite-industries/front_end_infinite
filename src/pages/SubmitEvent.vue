@@ -269,7 +269,7 @@
     </v-layout>
 
     <!-- Promo tools -->
-    <div class="collapsible-content" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
+    <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
       <h1>Event Promotion Tools:</h1>
       <p>
           Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
@@ -404,6 +404,7 @@
             if (response.data.status == "success") {
               this.showPromoTools = true;
               this.parseEventToHTML(response.data.data);
+              this.$SmoothScroll(this.$refs.promoTools);
             }
             // window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
           })
