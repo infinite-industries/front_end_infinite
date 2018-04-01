@@ -2,21 +2,22 @@
 <template>
   <v-container>
     <h1>Event Submission:</h1>
+    <i><span class="required-field">*</span> = required field</i>
 
     <!-- Title -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Event Title:</h3>
+        <h3 class="form-label">Event Title<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
-        <v-text-field v-model="new_event.title"></v-text-field>
+        <v-text-field v-model="new_event.title" :rules="[v => !!v || 'Title is required']"></v-text-field>
       </v-flex>
     </v-layout>
 
     <!-- Start Date -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Event Date:</h3>
+        <h3 class="form-label">Event Date<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
         <v-menu :close-on-content-click="true">
@@ -26,6 +27,7 @@
             v-model="new_event.date"
             prepend-icon="event"
             readonly
+            :rules="[v => !!v || 'Required']"
           ></v-text-field>
           <v-date-picker v-model="new_event.date" no-title class="nomargin">
             <template slot-scope="{ save, cancel }">
@@ -43,7 +45,7 @@
     <!-- Time -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Event Time:</h3>
+        <h3 class="form-label">Event Time<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm4 class="some-padding-top">
         <time-picker :date="new_event.date" :label="'Start Time:'" @changeTime="formattedTime => { new_event.time_start = formattedTime }"></time-picker>
@@ -56,10 +58,10 @@
     <!-- Event Image -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Event Image:</h3>
+        <h3 class="form-label">Event Image<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
-        <input type="file" class="form-control" id="event-image" name="event_image">
+        <input type="file" class="form-control" @change="onFileChange" ref="eventImage" id="event-image" name="event_image">
       </v-flex>
     </v-layout>
 
@@ -79,7 +81,7 @@
     <!-- Venue -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Select a Venue:</h3>
+        <h3 class="form-label">Select a Venue<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
         <venue-picker :venues="venues" @selectVenue="selectVenue"></venue-picker>
@@ -98,7 +100,7 @@
       <v-flex xs0 sm3></v-flex>
       <v-flex xs12 sm8>
         <v-expansion-panel expand style="margin-bottom: 10px;">
-          <v-expansion-panel-content style="padding: 0px 15px 0px 15px;">
+          <v-expansion-panel-content ref="expansionPanelContent" style="padding: 0px 15px 0px 15px;">
             <div slot="header">Add a New Venue:</div>
 
             <!-- Venue Name -->
@@ -145,7 +147,7 @@
 
             <v-layout row wrap>
               <v-flex xs12 style="text-align: center">
-                <v-btn color="success" @click="submitNewVenue()">Add Venue</v-btn>
+                <v-btn color="success" :disabled="!venueRequiredFields" @click="submitNewVenue()">Add Venue</v-btn>
               </v-flex>
               <v-flex xs12 style="text-align: center">
                 <img v-if="showVenueLoadingSpinner" class="loading-spinner" src="images/spinner.gif"></img>
@@ -161,7 +163,7 @@
     <!-- Brief Description -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Brief Description:</h3>
+        <h3 class="form-label">Brief Description<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
         <v-text-field label="A brief description for short-attention-span humans and webcrawlers" v-model="new_event.brief_description"></v-text-field>
@@ -253,7 +255,7 @@
     <v-layout row wrap>
       <v-flex xs12>
         <div class="text-xs-center">
-          <v-btn color="primary" class="deep-purple submission-btn" @click="UploadEvent">Submit Event</v-btn>
+          <v-btn :disabled="!eventRequiredFields" color="primary" class="deep-purple submission-btn" @click="UploadEvent">Submit Event</v-btn>
           <!-- <v-btn color="primary" class="deep-purple submission-btn" @click="showPromoTools = !showPromoTools">toggle</v-btn> -->
         </div>
       </v-flex>
@@ -336,6 +338,7 @@
           ticket_link:"",
           organizer_contact:""
         },
+        imageChosen: false,
         showAddVenue: false,
         showPromoTools: false,
         promoHTML: "",
@@ -404,6 +407,7 @@
         this.showVenueLoadingSpinner = true;
         Axios.post('/venues/submit-new', this.new_venue).then( response => {
           this.showVenueLoadingSpinner = false;
+          this.$refs.expansionPanelContent.isActive = false;
           console.log(response);
         }).catch( err => {
           console.log(err);
@@ -431,6 +435,10 @@
         this.promoHTML += `<p><b>Link for More Info: </b><a href="${event.website_link}">${event.website_link}</a></p>`;
         this.promoHTML += `<p><b>Organizer Contact: </b>${event.organizer_contact}</p>`;
 
+      },
+      onFileChange: function() {
+        // files.length will be a 0 for no image, 1 for image
+        this.imageChosen = this.$refs.eventImage.files.length;
       }
     },
     mounted: function() {
@@ -467,6 +475,24 @@
       //  }(document, 'script', 'facebook-jssdk'));
 
 
+   },
+
+   computed: {
+     eventRequiredFields: function() {
+       return this.new_event.title != "" &&
+          this.new_event.date != "" &&
+          this.new_event.time_start != "" &&
+          this.new_event.time_end != "" &&
+          this.new_event.venue_id != "" &&
+          this.imageChosen > 0 &&
+          this.new_event.brief_description != "";
+      },
+      venueRequiredFields: function() {
+        return this.new_venue.name != "" &&
+          this.new_venue.address != "" &&
+          this.new_venue.city != "" &&
+          this.new_venue.zip != "";
+      }
    },
 
    components: {
@@ -534,6 +560,10 @@
   text-align: center;
   height: 50px;
   vertical-align: top;
+}
+
+.required-field {
+  color: red;
 }
 
 </style>
