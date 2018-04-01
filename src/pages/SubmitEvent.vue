@@ -106,28 +106,28 @@
             <!-- Venue Name -->
             <v-layout row wrap>
               <v-flex xs12>
-                <v-text-field label="Venue Name*" v-model="new_venue.name"></v-text-field>
+                <v-text-field label="Venue Name*" v-model="new_venue.name" :rules="[v => !!v || 'Name is required']"></v-text-field>
               </v-flex>
             </v-layout>
 
             <!-- Venue Address -->
             <v-layout row wrap>
               <v-flex xs12>
-                <v-text-field label="Address*" v-model="new_venue.address"></v-text-field>
+                <v-text-field label="Address*" v-model="new_venue.address" :rules="[v => !!v || 'Address is required']"></v-text-field>
               </v-flex>
             </v-layout>
 
             <!-- City -->
             <v-layout row wrap>
               <v-flex xs12>
-                <v-text-field label="City*" v-model="new_venue.city"></v-text-field>
+                <v-text-field label="City*" v-model="new_venue.city" :rules="[v => !!v || 'City is required']"></v-text-field>
               </v-flex>
             </v-layout>
 
             <!-- Zip -->
             <v-layout row wrap>
               <v-flex xs12>
-                <v-text-field label="Zip Code*" v-model="new_venue.zip"></v-text-field>
+                <v-text-field label="Zip Code*" v-model="new_venue.zip" :rules="[v => !!v || 'Zip Code is required']"></v-text-field>
               </v-flex>
             </v-layout>
 
