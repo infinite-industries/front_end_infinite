@@ -164,7 +164,6 @@
     <v-layout row wrap>
       <v-flex xs12 sm3>
         <h3 class="form-label">Brief Description<span class="required-field">*</span>:</h3>
-        <em>Will be posted on the event card.</em>
       </v-flex>
       <v-flex xs12 sm8>
         <v-text-field label="A brief description for short-attention-span humans and webcrawlers" v-model="new_event.brief_description"></v-text-field>
@@ -202,7 +201,7 @@
     </v-layout>
 
     <h3>Full Event Description:</h3>
-    <em>Will be posted on the full page event description.</em>
+    <em>Will be posted on the event page.</em>
     <vue-editor id="vue-editor1" v-model="new_event.description"></vue-editor>
 
     <v-layout row>
@@ -273,8 +272,8 @@
       <h1>Event Promotion Tools:</h1>
       <p>
           Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
-          a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below. If you
-          have any suggestions for additional featured just reach out to us.
+          a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below into your favorite email setup.
+          If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
       </p>
       <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
 
