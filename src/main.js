@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import Axios from 'axios';
 import Moment from 'moment';
 import Vuetify from 'vuetify';
+import vueSmoothScroll from 'vue-smoothscroll';
+
 
 import App from './App.vue';
 
@@ -11,6 +13,7 @@ import SubmitEvent from './pages/SubmitEvent.vue'
 
 Vue.use(VueRouter);
 Vue.use(Vuetify);
+Vue.use(vueSmoothScroll);
 
 const router = new VueRouter({
     routes: [
