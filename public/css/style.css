@@ -83,7 +83,7 @@ vertical-align: middle;
 .social-media-links div span {
 vertical-align:middle !important;
 }
-
+/*
 .btn{
   height:28px;
   font-size: 12px;
@@ -91,7 +91,7 @@ vertical-align:middle !important;
 
   line-height: normal;
 }
-
+*/
 .btn .fa{
   padding-right: 5px;
 }
@@ -110,4 +110,87 @@ main{
   .map-and-calendar{
     margin-top: 10px;
   }
+}
+
+/* ---- General Stuff ----- */
+
+#content-wrapper{
+  padding-top: 20px;
+}
+#static-page-wrapper{
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.toolbar__content {
+    height: 44px;
+}
+
+.alert {
+  background-color: #9c27b0c7;
+}
+/* ------- ADMIN ------------ */
+
+.admin-table{
+  border-collapse: collapse;
+}
+
+.admin-table td{
+  padding:5px;
+}
+
+.admin-table tr{
+  border: 1px solid black;
+  min-width: 200px;
+}
+
+.admin-value-to-edit{
+  border: 2px solid black;
+  padding: 4px;
+  min-width: 400px;
+}
+
+.user-events-item{
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+/* --- Shims that might break a few things in the long run --- */
+
+.speed-dial__list{
+  top: 90px;
+  z-index: 12;
+}
+
+.event-add-wrapper{
+  background-color: purple;
+  margin-top: 50px;
+  margin-left: 200px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.event-add-to-list{
+  padding-bottom: 10px;
+  color: white;
+  min-width: 120px;
+}
+
+.event-favorite{
+  position: absolute;
+  top:80px;
+  left: 20px;
+
+}
+.event-favorite-icon{
+  position: absolute;
+}
+/* ------------- Transition Effects ---------- */
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1.0s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0
 }
