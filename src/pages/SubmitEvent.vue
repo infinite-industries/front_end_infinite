@@ -585,4 +585,10 @@
   color: red;
 }
 
+@media only screen and (max-width: 600px) {
+  .form-label {
+    text-align: left;
+  }
+}
+
 </style>
