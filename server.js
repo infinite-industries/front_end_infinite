@@ -17,6 +17,9 @@ const venues = require('./routes/venues');
 app.use('/calendar', calendar);
 app.use('/venues', venues);
 
+const events = require('./routes/events');
+app.use('/events', events);
+
 app.use(express.static('public'));
 
 app.get("/", function (request, response) {
