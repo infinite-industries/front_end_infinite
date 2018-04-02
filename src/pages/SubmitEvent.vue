@@ -275,6 +275,9 @@
         If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
       </p>
       <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
+
+
+
       <!--
       <v-layout row wrap>
         <v-flex xs1 sm1>
@@ -299,11 +302,11 @@
         </v-flex>
       </v-layout>
       -->
-      <v-layout row>
+      <!-- <v-layout row>
         <div class="text-xs-center">
           <v-btn color="primary" @click="sendEmails">Send Promo Email</v-btn>
         </div>
-      </v-layout>
+      </v-layout> -->
     </div>
 
   </v-container>
@@ -442,7 +445,7 @@
       parseEventToHTML: function(ii_event) {
         console.log(ii_event);
 
-        this.promoHTML = "testing <h1>Testing</h1>";
+        this.promoHTML = "testing \<h1\>Testing\<\/h1\>";
 
         // this.promoHTML = `<h2>${ii_event.title}</h2>`;
         // this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
