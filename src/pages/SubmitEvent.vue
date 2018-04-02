@@ -201,7 +201,6 @@
     </v-layout>
 
     <h3>Full Event Description:</h3>
-    <em>Will be posted on the event page.</em>
     <vue-editor id="vue-editor1" v-model="new_event.description"></vue-editor>
 
     <v-layout row>
@@ -270,14 +269,8 @@
     <!-- Promo tools -->
     <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
       <h1>Event Promotion Tools:</h1>
-      <p>
-          Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
-          a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below into your favorite email setup.
-          If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
-      </p>
       <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
-
-      <!-- <p>
+      <p>
         Note: Many email servers treat automated email as spam. For the best results simply copy
         and paste the text above into your own email. Email sender forms below are still experimental but we
         are working on delivery confirmation feature which will make the whole process much, much smoother.
@@ -308,7 +301,7 @@
         <div class="text-xs-center">
           <v-btn color="primary" @click="sendEmails">Send Promo Email</v-btn>
         </div>
-      </v-layout> -->
+      </v-layout>
     </div>
 
   </v-container>
@@ -444,15 +437,14 @@
         console.log("Allan please send emails.");
       },
       // for use in promo tools. Takes an event object and makes it into pretty html
-      parseEventToHTML: function(event) {
-        console.log(event);
-        this.promoHTML = `<h2>${event.title}</h2>`;
-        this.promoHTML += `<p><b>Description: </b>${event.brief_description}</p>`;
-        this.promoHTML += `<p><b>When: </b>${event.when}</p>`;
-        this.promoHTML += `<p><b>Location: </b>${event.address}</p>`;
-        this.promoHTML += `<p><b>Link for More Info: </b><a href="${event.website_link}">${event.website_link}</a></p>`;
-        this.promoHTML += `<p><b>Organizer Contact: </b>${event.organizer_contact}</p>`;
-
+      parseEventToHTML: function(ii_event) {
+        console.log(ii_event);
+        this.promoHTML = `<h2>${ii_event.title}</h2>`;
+        this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
+        this.promoHTML += `<p><b>When: </b>${ii_event.when}</p>`;
+        this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p>`;
+        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${event.website_link}</a></p>`;
+        this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
       },
       onFileChange: function() {
         // files.length will be a 0 for no image, 1 for image
