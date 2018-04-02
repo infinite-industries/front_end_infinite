@@ -441,12 +441,15 @@
       // for use in promo tools. Takes an event object and makes it into pretty html
       parseEventToHTML: function(ii_event) {
         console.log(ii_event);
-        this.promoHTML = `<h2>${ii_event.title}</h2>`;
-        this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
-        this.promoHTML += `<p><b>When: </b>${ii_event.when}</p>`;
-        this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p>`;
-        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${event.website_link}</a></p>`;
-        this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
+
+        this.promoHTML = "testing <h1>Testing</h1>";
+
+        // this.promoHTML = `<h2>${ii_event.title}</h2>`;
+        // this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
+        // this.promoHTML += `<p><b>When: </b>${ii_event.when}</p>`;
+        // this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p>`;
+        // this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${event.website_link}</a></p>`;
+        // this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
       },
       onFileChange: function() {
         // files.length will be a 0 for no image, 1 for image

@@ -31,7 +31,7 @@ ssh $USER@$SERVER << EOF
   #echo 'Building frontend js'
   forever stop infinite
   rm /home/$USER/.forever/infinite.log
-  forever start --uid infinite server.js
+  forever start -c /home/ubuntu/.nvm/versions/node/v8.11.1/bin/node --uid infinite server.js
   echo 'Done!'
 EOF
 
