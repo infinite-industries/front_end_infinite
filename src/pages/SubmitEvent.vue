@@ -1,6 +1,6 @@
 // SubmitEvent.vue
 <template>
-  <v-container>
+  <v-container ii-offset>
     <h1>Event Submission:</h1>
     <i><span class="required-field">*</span> = required field</i>
 

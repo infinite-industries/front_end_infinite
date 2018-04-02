@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <h1>Upcoming Events:</h1>
-     <v-layout row wrap>
+     <v-layout row ii-offset wrap>
 
       <template v-for= "event in events">
        <v-flex sm4 lg3 event-card-container v-if="true">
@@ -37,13 +37,6 @@
           </v-card>
         </v-flex>
       </template>
-
-
-      <p>
-        <br>
-        <!-- hacking some space above mailchimp thing -->
-        <br>
-      </p>
 
 
     </v-layout>
@@ -93,3 +86,14 @@ export default {
 }
 
 </script>
+
+<style>
+
+  h1{
+    padding-top: 20px;
+  }
+  .ii-offset {
+    padding-bottom: 130px;
+  }
+
+</style>
