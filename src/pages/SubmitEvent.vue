@@ -269,12 +269,13 @@
     <!-- Promo tools -->
     <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
       <h1>Event Promotion Tools:</h1>
-      <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
       <p>
-        Note: Many email servers treat automated email as spam. For the best results simply copy
-        and paste the text above into your own email. Email sender forms below are still experimental but we
-        are working on delivery confirmation feature which will make the whole process much, much smoother.
+        Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
+        a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below into your favorite email setup.
+        If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
       </p>
+      <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
+      <!--
       <v-layout row wrap>
         <v-flex xs1 sm1>
           <v-checkbox v-model="send_summary" hide-details class="shrink mr-2"></v-checkbox>
@@ -297,6 +298,7 @@
           <v-text-field v-model="send_summary_others_emails"></v-text-field>
         </v-flex>
       </v-layout>
+      -->
       <v-layout row>
         <div class="text-xs-center">
           <v-btn color="primary" @click="sendEmails">Send Promo Email</v-btn>
