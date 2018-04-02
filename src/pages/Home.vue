@@ -39,6 +39,13 @@
       </template>
 
 
+      <p>
+        <br>
+        <!-- hacking some space above mailchimp thing -->
+        <br>
+      </p>
+
+
     </v-layout>
   </v-container>
 </template>
