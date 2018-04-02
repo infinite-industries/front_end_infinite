@@ -355,7 +355,7 @@
         imageChosen: false,
         showAddVenue: false,
         showPromoTools: false,
-        promoHTML: "",
+        // promoHTML: "",
         new_venue: {
           name: "",
           address: "",
@@ -409,8 +409,8 @@
             this.showEventLoadingSpinner = false;
             if (response.data.status == "success") {
               this.showPromoTools = true;
-              this.parseEventToHTML(response.data.data);
-              this.$SmoothScroll(this.$refs.promoTools);
+              // this.parseEventToHTML(response.data.data);
+              // this.$SmoothScroll(this.$refs.promoTools);
 
               window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
             }
