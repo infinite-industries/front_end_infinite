@@ -156,6 +156,14 @@ main{
   margin: 5px;
 }
 
+.share-link-btn {
+  padding-right: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
 
 /* --- Shims that might break a few things in the long run --- */
 
