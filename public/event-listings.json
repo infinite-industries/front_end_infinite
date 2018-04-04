@@ -1,30 +1,5 @@
 [
 
-
-     {
-       "id":"9e5ab6c0-3214-11e8-8a48-d3df96b01059",
-       "title":"Wild Rose / The James Badfellows / Kink at Green Lantern",
-       "slug":"wild-rose-the-james-badfellows-kink-at-green-lantern",
-       "when":"Tuesday, April 3rd, 2018 <br /> 9:00pm - 7:13pm",
-       "time_start":"2018-04-03 21:00:00",
-       "time_end": "2018-03-27 19:13:00",
-       "website": "none",
-       "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/9e5ab6c0-3214-11e8-8a48-d3df96b01059.jpg",
-       "social_image":"none",
-       "venues":["The Green Lantern Bar"],
-       "admission_fee": "$5.00",
-       "address": "497 W 3rd St, Lexington, Kentucky 40508",
-       "organizers":[""],
-       "map_link":"https://goo.gl/maps/7qVeS821NtR2",
-       "brief_description":"Our good friend Sam Roberts (Fried Egg) will be rolling through with WILD ROSE and the sweet sounds of THE JAMES BADFELLOWS!! Local Berea buds Kink round out the night",
-       "description":"<p>Our good friend Sam Roberts (Fried Egg) will be rolling through with WILD ROSE and the sweet sounds of THE JAMES BADFELLOWS!! Local Berea buds Kink round out the night. Come enjoy rock n roll of all kinds!</p><p><br></p><p>Wild Rose (VA)</p><p>https://wildroseva.bandcamp.com</p><p><br></p><p>The James Badfellows (VA)</p><p>https://thejamesbadfellows.bandcamp.com</p><p><br></p><p>Kink (Berea Punk)</p><p><br></p><p>April 3rd</p><p>The Green Lantern</p><p>$5 for touring friends!</p><p>Doors at 9, music shortly after!</p><p>ROCK N ROLL</p>",
-       "links":["none"],
-       "ticket_link":"none",
-       "fb_event_link":"https://www.facebook.com/events/546538275717810",
-       "eventbrite_link":"none",
-       "bitly_link":"http://bit.ly/2Gf3LLP",
-       "tags":["not-yet-implemented"]
-     },
      {
        "id":"83507680-3750-11e8-b836-9167ef462562",
        "title":"Lexington Film League Presents: 'Abacus: Small Enough to Jail'",
@@ -49,6 +24,30 @@
        "bitly_link":"http://bit.ly/2GtB3v8",
        "tags":["not-yet-implemented"]
      },
+     {
+        "id":"a96f75d0-380b-11e8-9de4-9b2e4e3c9d95",
+        "title":"De Aquí Y De Allá - Alán Serna MFA Thesis Exhibition",
+        "slug":"de-aquí-y-de-allá-alán-serna-mfa-thesis-exhibition",
+        "when":"Thursday, April 5th, 2018 <br /> 4:30pm - 6:30pm",
+        "time_start":"2018-04-05 16:30:00",
+        "time_end": "2018-04-05 18:30:00",
+        "website": "none",
+        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/a96f75d0-380b-11e8-9de4-9b2e4e3c9d95.jpg",
+        "social_image":"none",
+        "venues":["Bolivar Art Gallery - UK School of Art"],
+        "admission_fee": "none",
+        "address": "236 Bolivar St, Lexington, KY 40508",
+        "organizers":[""],
+        "map_link":"https://goo.gl/maps/cFTbFbb7TmS2",
+        "brief_description":"Join us for the reception of Alán Serna's MFA Thesis Exhibition!",
+        "description":"<p>Join us for the reception of Alán Serna's MFA Thesis Exhibition!</p><p>The exhibition runs from April 2nd - April 7th, with the Reception on the 5th from 4:30-6:30PM. </p><p><br></p><p>Regular Gallery Hours:</p><p>Monday - Friday: 10AM - 4:30PM</p><p>Saturday: 12PM - 4PM</p><p><br></p><p>Refreshments will be provided.</p>",
+        "links":["none"],
+        "ticket_link":"none",
+        "fb_event_link":"https://www.facebook.com/events/177554819560027",
+        "eventbrite_link":"none",
+        "bitly_link":"http://bit.ly/2q4fhnh",
+        "tags":["not-yet-implemented"]
+      },
     {
         "id":"7e5d11b0-1b12-11e8-880d-2520cd90ca5b",
         "title":"Dark Necessities",
@@ -146,6 +145,30 @@
        "bitly_link":"http://bit.ly/2GyMUas",
        "tags":["not-yet-implemented"]
      },
+     {
+           "id":"48659520-380c-11e8-b1cf-65797d127477",
+           "title":"Preserving Fragility - Liz Moore BFA Solo Exhibition",
+           "slug":"preserving-fragility--liz-moore-bfa-solo-exhibition",
+           "when":"Thursday, April 12th, 2018 <br /> 4:00pm - 9:00pm",
+           "time_start":"2018-04-12 16:00:00",
+           "time_end": "2018-04-12 21:00:00",
+           "website": "none",
+           "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/48659520-380c-11e8-b1cf-65797d127477.jpg",
+           "social_image":"none",
+           "venues":["Bolivar Art Gallery - UK School of Art"],
+           "admission_fee": "none",
+           "address": "236 Bolivar St, Lexington, KY 40508",
+           "organizers":[""],
+           "map_link":"https://goo.gl/maps/cFTbFbb7TmS2",
+           "brief_description":"Hi! This will be her first solo show, a conglomerate collection of the work she has been making this year.",
+           "description":"<p>Hi! This will be my first solo show, a conglomerate collection of the work I've been making this year, and I would love to share the work with you! The show is open all week however the opening reception is april 12 . See you there!</p>",
+           "links":["none"],
+           "ticket_link":"none",
+           "fb_event_link":"https://www.facebook.com/events/1961006723911141",
+           "eventbrite_link":"none",
+           "bitly_link":"http://bit.ly/2GBq1jv",
+           "tags":["not-yet-implemented"]
+         } ,
 
       {
               "id":"ebc7c9c0-23d7-11e8-a0e2-cd423235e627",
