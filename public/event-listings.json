@@ -348,7 +348,7 @@
        "time_end": "2018-04-27 21:00:00",
        "website": "none",
        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/e162e790-3209-11e8-a466-f34edd82d3c0.jpg",
-       "social_image":"none",
+       "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/e162e790-3209-11e8-a466-f34edd82d3c0.jpg",
        "venues":["Pivot Brewing"],
        "admission_fee": "none",
        "address": "1400 Delaware Ave, Lexington, KY 40505",
