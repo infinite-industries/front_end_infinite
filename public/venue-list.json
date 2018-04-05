@@ -1,4 +1,13 @@
 [
+  {
+    "id": "dbc17929-fa2e-4453-8f31-c3d4e21e14d0",
+    "name": "Kentucky Theater",
+    "slug": "kentucky_theater",
+    "address": "214 E Main St, Lexington, KY 40507",
+    "g_map_link": "https://goo.gl/maps/3kevicLsj6r",
+    "createdAt": "2018-03-23T01:08:28.924Z",
+    "updatedAt": "2018-03-23T01:08:28.924Z"
+  },
    {
      "id": "d0858cc0-0478-11e8-808e-07b6d0fe568b",
      "name": "Institute 193",
