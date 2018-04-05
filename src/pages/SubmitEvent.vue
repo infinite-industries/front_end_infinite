@@ -450,6 +450,7 @@
         console.log(venue);
         this.new_event.venue_id = venue.id;
         this.new_event.address = venue.address;
+        this.new_event.venue_name = venue.name;
       },
       toggleVenueDropdown: function() {
         this.showAddVenue = !this.showAddVenue;
