@@ -1,5 +1,21 @@
 [
   {
+    "id":"8139b81b-e8ba-4e5a-a4da-7a8baa3fc7a8",
+    "name":"Heike Pickett Gallery and Sculpture Garden",
+    "g_map_link":"https://goo.gl/maps/nsSnSWzW82N2",
+    "address":"110 Morgan Street, Versailles, KY 40383",
+    "createdAt": "2018-04-06T01:08:28.924Z",
+    "updatedAt": "2018-04-06T01:08:28.924Z"
+  },
+  {
+    "id":"637de4f0-d3c3-403a-b57a-8975e242763c",
+    "name":"Anne Wright Wilson Gallery at Georgetown College",
+    "g_map_link":"https://goo.gl/maps/xpSh1D4UKL62",
+    "address":"400 E College St, Georgetown, KY 40324",
+    "createdAt": "2018-04-06T01:08:28.924Z",
+    "updatedAt": "2018-04-06T01:08:28.924Z"
+  },
+  {
     "id":"709f758f-c57c-4b1b-9618-ac4dd34eed62",
     "name":"Heike Pickett Gallery at CMW",
     "g_map_link":"https://goo.gl/maps/LNo21EvgcqF2",
