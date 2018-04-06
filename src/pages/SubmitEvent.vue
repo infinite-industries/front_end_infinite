@@ -274,7 +274,7 @@
 
 
     <!-- Promo tools -->
-    <!-- <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
+    <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
       <h1>Event Promotion Tools:</h1>
       <p>
         Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
@@ -282,7 +282,7 @@
         If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
       </p>
       <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
- -->
+
 
 
 
