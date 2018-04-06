@@ -275,9 +275,12 @@
 
     <!-- Promo tools -->
     <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
+
+      <h3 style="text-align: center">Thank you! Your event should be out of review and on our site within 24 hours.</h3>
+
       <h1>Event Promotion Tools:</h1>
       <p>
-        Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
+        Here is a summary of the information that you have entered for your event. We know that you need to send
         a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below into your favorite email setup.
         If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
       </p>
@@ -412,7 +415,7 @@
               this.parseEventToHTML(response.data.data);
               this.$SmoothScroll(this.$refs.promoTools);
 
-              window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
+              // window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
             }
             else{
               window.alert("Hmmm... something went wrong :( Can you ping the management at info@infinite.industries");
