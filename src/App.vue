@@ -131,7 +131,6 @@ export default {
   },
   methods: {
     AddEventToCalendar(calType, event) {
-      console.log('!!! HERE: ' + JSON.stringify(event, null, 4))
       InfiniteAnalytics({
         event_id : event.id,
         action_type: "calendar_add",
