@@ -274,15 +274,18 @@
 
 
     <!-- Promo tools -->
-    <!-- <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
+    <div class="collapsible-content" ref="promoTools" :class="{'expanded': showPromoTools}" style="margin-top: 10px">
+
+      <h3 style="text-align: center">Thank you! Your event should be out of review and on our site within 24 hours.</h3>
+
       <h1>Event Promotion Tools:</h1>
       <p>
-        Thank you! Here is a summary of the information that you have entered for your event. We know that you need to send
+        Here is a summary of the information that you have entered for your event. We know that you need to send
         a bunch of emails for event promo and want to make this task easier. You can copy and paste the text below into your favorite email setup.
         If you have any suggestions for additional features to make your life easier just reach out to us at info[@]infinite[d0t]industries
       </p>
       <vue-editor id="vue-editor2" v-model="promoHTML"></vue-editor>
- -->
+
 
 
 
@@ -355,7 +358,7 @@
         imageChosen: false,
         showAddVenue: false,
         showPromoTools: false,
-        // promoHTML: "",
+        promoHTML: "",
         new_venue: {
           name: "",
           address: "",
@@ -409,10 +412,10 @@
             this.showEventLoadingSpinner = false;
             if (response.data.status == "success") {
               this.showPromoTools = true;
-              // this.parseEventToHTML(response.data.data);
-              // this.$SmoothScroll(this.$refs.promoTools);
+              this.parseEventToHTML(response.data.data);
+              this.$SmoothScroll(this.$refs.promoTools);
 
-              window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
+              // window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
             }
             else{
               window.alert("Hmmm... something went wrong :( Can you ping the management at info@infinite.industries");
@@ -450,6 +453,7 @@
         console.log(venue);
         this.new_event.venue_id = venue.id;
         this.new_event.address = venue.address;
+        this.new_event.venue_name = venue.name;
       },
       toggleVenueDropdown: function() {
         this.showAddVenue = !this.showAddVenue;
@@ -467,7 +471,7 @@
         this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
         this.promoHTML += `<p><b>When: </b>${ii_event.when}</p>`;
         this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p>`;
-        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${event.website_link}</a></p>`;
+        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${ii_event.website_link}</a></p>`;
         this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
 
         console.log(this.promoHTML);
