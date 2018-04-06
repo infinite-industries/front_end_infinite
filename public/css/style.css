@@ -99,6 +99,18 @@ vertical-align:middle !important;
 .social-and-link{
   text-align: right;
 }
+
+@media only screen and (max-width: 768px) {
+  .social-media-table-hack{
+    max-width: 90%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .social-media-table-hack{
+    max-width: 30%;
+  }
+}
+
 .map-and-calendar{
   text-align: right;
 }

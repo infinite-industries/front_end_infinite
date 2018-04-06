@@ -49,6 +49,7 @@
 
 import Axios from 'axios';
 import moment from 'moment'
+import InfiniteAnalytics from '../helpers/infinite-analytics'
 
 export default {
   data () {
@@ -70,6 +71,13 @@ export default {
   },
   methods: {
     AddEventToCalendar(calType, event) {
+      InfiniteAnalytics({
+        event_id : event.id,
+        action_type: "calendar_add",
+        view_type: "card",
+        calendar_type: calType,
+        user_agent: navigator.userAgent
+      })
       if (calType === "iCal" || calType === "Outlook") {
         // send event data to node layer to be converted into an .ics file
         window.open(`/calendar?title=${encodeURIComponent(event.title)}&description=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}&time_start=${encodeURIComponent(event.time_start)}&time_end=${encodeURIComponent(event.time_end)}`);
@@ -81,6 +89,12 @@ export default {
       }
     },
     ShowEvent: function(event_id){
+      InfiniteAnalytics({
+        event_id,
+        action_type: "expand_view",
+        view_type: "card",
+        user_agent: navigator.userAgent
+      })
       console.log(event_id);
       window.location.assign('/event/'+ event_id);
     }

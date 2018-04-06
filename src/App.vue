@@ -24,6 +24,11 @@
 
 <script>
 
+import Axios from 'axios'
+import moment from 'moment'
+import InfiniteAnalytics from './helpers/infinite-analytics'
+
+
 export default {
   data () {
     return {

@@ -14,11 +14,14 @@ app.use(bodyParser.urlencoded({
 
 const calendar = require('./routes/calendar');
 const venues = require('./routes/venues');
+const events = require('./routes/events');
+const analytics = require('./routes/analytics');
+
 app.use('/calendar', calendar);
 app.use('/venues', venues);
-
-const events = require('./routes/events');
 app.use('/events', events);
+app.use('/analytics', analytics);
+
 
 app.use(express.static('public'));
 
