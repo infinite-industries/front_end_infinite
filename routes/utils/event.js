@@ -2,9 +2,6 @@ const uuidv4 = require('uuid/v4')
 const slack = require('./slackNotify')
 const moment = require('moment')
 
-const dotenv = require('dotenv')
-dotenv.load()
-
 const Event = function(init_obj){
 
   console.log(init_obj)
@@ -27,9 +24,8 @@ const Event = function(init_obj){
   this.time_start = init_obj.time_start
   this.time_end = init_obj.time_end
 
-  //this.when = moment(this.date).format('dddd, MMMM Do, YYYY') +" <br /> "+ moment(this.time_start).format('h:mma') +" - "+ moment(this.time_end).format('h:mma')
-  this.when_date = moment(this.date).format('dddd, MMMM Do, YYYY');
-  this.when_time = moment(this.time_start).format('h:mma') + " - " + moment(this.time_end).format('h:mma');
+  this.when = moment(this.date).format('dddd, MMMM Do, YYYY') +" <br /> "+ moment(this.time_start).format('h:mma') +" - "+ moment(this.time_end).format('h:mma')
+
 
   //venue specific attributes
   if(init_obj.hasOwnProperty('address')){
@@ -103,8 +99,7 @@ Event.prototype.Notify = function(){
         "id":"${this.id}",
         "title":"${this.title}",
         "slug":"${this.slug}",
-        "when_date":"${this.when_date}",
-        "when_time":"${this.when_time}",
+        "when":"${this.when}",
         "time_start":"${this.time_start}",
         "time_end": "${this.time_end}",
         "website_link": "${this.website_link}",
@@ -126,8 +121,7 @@ Event.prototype.Notify = function(){
         "tags":["not-yet-implemented"]
       \}`;
 
-      let slack_channel = process.env.ENV == 'prod' ? 'submission' : 'test'
-      slack.Notify(slack_channel,"Review Me. Copy Me. Paste Me. Deploy Me." + event_payload + "\n Contact: "+this.organizer_contact);
+      slack.Notify("test","Review Me. Copy Me. Paste Me. Deploy Me." + event_payload + "\n Contact: "+this.organizer_contact);
 }
 
 

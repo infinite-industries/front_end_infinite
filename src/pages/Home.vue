@@ -14,9 +14,7 @@
                 <div class="event-venue">
                   {{event.venues[0]}}
                 </div>
-                <div class="event-date">
-                  {{event.when_date}}<br>{{event.when_time}}
-                </div>
+                <div class="event-date" v-html="event.when"></div>
                 <div>{{event.brief_description}}...</div>
               </div>
             </v-card-title>
