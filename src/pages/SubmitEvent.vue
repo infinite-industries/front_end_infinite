@@ -355,7 +355,7 @@
         imageChosen: false,
         showAddVenue: false,
         showPromoTools: false,
-        // promoHTML: "",
+        promoHTML: "",
         new_venue: {
           name: "",
           address: "",
@@ -409,8 +409,8 @@
             this.showEventLoadingSpinner = false;
             if (response.data.status == "success") {
               this.showPromoTools = true;
-              // this.parseEventToHTML(response.data.data);
-              // this.$SmoothScroll(this.$refs.promoTools);
+              this.parseEventToHTML(response.data.data);
+              this.$SmoothScroll(this.$refs.promoTools);
 
               window.alert("Event submitted. Thank you! It should be out of review and on our site within 24 hours. Usually, much faster :)");
             }
@@ -468,7 +468,7 @@
         this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
         this.promoHTML += `<p><b>When: </b>${ii_event.when}</p>`;
         this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p>`;
-        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${event.website_link}</a></p>`;
+        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${ii_event.website_link}</a></p>`;
         this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
 
         console.log(this.promoHTML);
