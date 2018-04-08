@@ -193,10 +193,10 @@
     <!-- Organizer Contact -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Organizer Contact<span class="required-field">*</span>:</h3>
+        <h3 class="form-label">Organizer Email<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
-        <v-text-field v-model="new_event.organizer_contact" :rules="[v => !!v || 'Organizer Contact is required']"></v-text-field>
+        <v-text-field v-model="new_event.organizer_contact" :rules="[v => !!v || 'Organizer Contact is required', v => isEmail(v) || 'Must be a valid email address']"></v-text-field>
       </v-flex>
     </v-layout>
 
@@ -255,7 +255,7 @@
     <v-layout row wrap>
       <v-flex xs12>
         <div class="text-xs-center">
-          <v-btn :disabled="!eventRequiredFields" color="primary" class="deep-purple submission-btn" @click="UploadEvent">Submit Event</v-btn>
+          <v-btn :disabled="!eventRequiredFields || eventSubmitted" color="primary" class="deep-purple submission-btn" @click="UploadEvent">Submit Event</v-btn>
           <!-- <v-btn color="primary" class="deep-purple submission-btn" @click="showPromoTools = !showPromoTools">toggle</v-btn> -->
         </div>
       </v-flex>
@@ -359,6 +359,7 @@
         showAddVenue: false,
         showPromoTools: false,
         promoHTML: "",
+        eventSubmitted: false,
         new_venue: {
           name: "",
           address: "",
@@ -378,22 +379,6 @@
       }
     },
     methods: {
-      submitEvent: function() {
-        console.log("submit!");
-        // this.new_event.id = uuidv1();
-        Axios.post('/events/submit-new', this.new_event).then( response => {
-          console.log(response);
-        })
-      },
-      TestMail: function(){
-        Axios.post('/events/promo-new', {"test":"me"})
-          .then(function(_response) {
-            console.log(_response.data)
-          })
-          .catch(function(error) {
-            console.log(error)
-          })
-      },
       UploadEvent: function(){
 
         const formData = new FormData()
@@ -407,9 +392,11 @@
         formData.append('social_image', document.getElementById('event-social-image').files[0])
 
         this.showEventLoadingSpinner = true;
+        this.eventSubmitted = true; // to disable button and prevent multiple submissions
 
         Axios.post('/events/submit-new', formData).then( response => {
             this.showEventLoadingSpinner = false;
+
             if (response.data.status == "success") {
               this.showPromoTools = true;
               this.parseEventToHTML(response.data.data);
@@ -424,7 +411,7 @@
           })
           .catch(function(error) {
             console.log(error)
-
+            this.eventSubmitted = false;
             window.alert("Hmmm... something went wrong :( Can you ping the management at info@infinite.industries");
           })
       },
@@ -480,6 +467,10 @@
       onFileChange: function() {
         // files.length will be a 0 for no image, 1 for image
         this.imageChosen = this.$refs.eventImage.files.length;
+      },
+      isEmail: function(text) {
+        let regex = /\S+@\S+\.\S+/;
+        return regex.test(text);
       }
     },
     mounted: function() {
@@ -526,6 +517,7 @@
           this.new_event.time_end != "" &&
           this.new_event.venue_id != "" &&
           this.new_event.organizer_contact != "" &&
+          this.isEmail(this.new_event.organizer_contact) &&
           this.imageChosen > 0 &&
           this.new_event.brief_description != "";
       },
