@@ -105,6 +105,7 @@ router.get("/:id", function(req, res) {
             console.warn('error getting event (%s): %s', id, err);
             res.status(500).send('error getting event');
         } else {
+            console.log(apiResp.data.event)
             res.render(
                 'event',
                 { id, event: apiResp.data.event, site_url: process.env.SITE_URL }
