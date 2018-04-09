@@ -165,8 +165,12 @@ router.post("/submit-new", function(req, res){
       // Create and add bitly link
       function(data, callback){
         AddBitlyLink(EVENT.id, process.env.BITLY_TOKEN, function(err, data){
-          // console.log(data)
-          EVENT.bitly_link = data
+          if(err){
+            EVENT.bitly_link = "https://infinite.industries/event/"+EVENT.id
+          }
+          else {
+            EVENT.bitly_link = data
+          }
           callback(err, data)
         })
       },

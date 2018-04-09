@@ -466,7 +466,7 @@
         }
 
         this.promoHTML += `<p><b>Description: </b>${ii_event.description}</p>`;
-        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.bitly_link}">${ii_event.bitly_link}</a></p>`;
+        // this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.bitly_link}">${ii_event.bitly_link}</a></p>`;
         this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
 
         console.log(this.promoHTML);
