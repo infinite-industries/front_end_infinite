@@ -102,10 +102,13 @@
           <span>Link</span>
         </div>
         {% endif %}
+        {% if event.hasOwnProperty('map_link') and event.map_link!="none" %}
         <div class="ii-social-button" onclick="mapLink()" style="background-color: rgb(126, 66, 179)">
           <i class="fas fa-map-marker-alt ii-social-icon"></i>
           <span>Directions</span>
         </div>
+        {% endif %}
+
         <div class="infinite-dropdown ii-social-button dropbtn" onclick="toggleDropdown()" style="background-color: rgb(38, 186, 71)">
           <i class="fas fa-calendar-alt ii-social-icon"></i>
           <span>Download</span>
@@ -265,8 +268,6 @@
 
     </div>
 
-
-    <div id="fb-root"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" type="text/javascript"></script>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -275,36 +276,6 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=510767252621911";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-
-      var clipboard = new Clipboard('.btn');
-      clipboard.on('success', function(e) {
-          // console.info('Action:', e.action);
-          console.info('URL:', e.text);
-          window.alert("Copied the URL. Now you can paste it into emails, tweets or any other announcements. Enjoy!")
-          // console.info('Trigger:', e.trigger);
-
-      });
-      clipboard.on('error', function(e) {
-          console.error('Action:', e.action);
-          console.error('Trigger:', e.trigger);
-      });
-
-      twttr.ready(
-        function (twttr) {
-          // bind events here
-          twttr.events.bind(
-            'click',
-            function (ev) {
-              InfiniteAnalytics(
-                "{{ id }}",
-                "twitter_share",
-                "",
-                "{{site_url}}"
-              );
-            }
-          );
-        }
-      );
 
       // $( "#facebook_share" ).click(function() {
       //   console.log('facebook_share!!!!');
