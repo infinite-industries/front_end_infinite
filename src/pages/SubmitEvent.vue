@@ -74,9 +74,11 @@
         <input type="file" class="form-control" id="event-social-image" name="event_social_image">
       </v-flex>
       <v-flex xs8 offset-xs3>
-        <em>Image optimized for sharing on various social media platforms (recommended size)</em>
+        <em>Image optimized for social media sharing (recommended size 1024X512 under 1MB)</em>
       </v-flex>
     </v-layout>
+
+    <p><br></p>
 
     <!-- Venue -->
     <v-layout row wrap>
@@ -193,10 +195,10 @@
     <!-- Organizer Contact -->
     <v-layout row wrap>
       <v-flex xs12 sm3>
-        <h3 class="form-label">Organizer Email<span class="required-field">*</span>:</h3>
+        <h3 class="form-label">Your Contact Email<span class="required-field">*</span>:</h3>
       </v-flex>
       <v-flex xs12 sm8>
-        <v-text-field v-model="new_event.organizer_contact" :rules="[v => !!v || 'Organizer Contact is required', v => isEmail(v) || 'Must be a valid email address']"></v-text-field>
+        <v-text-field label="We will send you a confirmation when your event is added" v-model="new_event.organizer_contact" :rules="[v => !!v || 'Organizer Contact is required', v => isEmail(v) || 'Must be a valid email address']"></v-text-field>
       </v-flex>
     </v-layout>
 
@@ -455,10 +457,16 @@
         //this.promoHTML = "testing \<h1\>Testing\<\/h1\>";
 
         this.promoHTML = `<h2>${ii_event.title}</h2>`;
-        this.promoHTML += `<p><b>Description: </b>${ii_event.brief_description}</p>`;
-        this.promoHTML += `<p><b>When: </b>${ii_event.when}</p>`;
-        this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p>`;
-        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.website_link}">${ii_event.website_link}</a></p>`;
+        this.promoHTML += `<p><b>When: </b>${ii_event.when_date} ${ii_event.when_time}</p>`;
+        this.promoHTML += `<p><b>Location: </b>${ii_event.address}</p> <p><br></p>`;
+        this.promoHTML += `<img src="${ii_event.image}" width="450px" height="auto">`;
+
+        if(ii_event.admission_fee!=="none"){
+          this.promoHTML += `<p><b>Admission: </b>${ii_event.admission_fee}</p>`;
+        }
+
+        this.promoHTML += `<p><b>Description: </b>${ii_event.description}</p>`;
+        this.promoHTML += `<p><b>Link for More Info: </b><a href="${ii_event.bitly_link}">${ii_event.bitly_link}</a></p>`;
         this.promoHTML += `<p><b>Organizer Contact: </b>${ii_event.organizer_contact}</p>`;
 
         console.log(this.promoHTML);
@@ -579,15 +587,15 @@
 
 .collapsible-content {
   padding-bottom: 0px;
-  /* height: 0px; */
-  max-height: 0px;
+  height: 0px;
+  /* max-height: 0px; */
   overflow: hidden;
   transition: max-height 0.4s;
 }
 .expanded {
   height: auto;
   padding: 12px;
-  max-height: 800px; /* <-- this isn't ideal, need to approximate size of dropdown content for animation to work properly... */
+  max-height: auto; /* <-- this isn't ideal, need to approximate size of dropdown content for animation to work properly... */
 }
 
 .loading-spinner {
@@ -605,5 +613,9 @@
     text-align: left;
   }
 }
+
+/* #vue-editor2{
+  height: 200px;
+} */
 
 </style>
