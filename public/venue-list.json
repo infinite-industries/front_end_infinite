@@ -117,6 +117,33 @@
      "updatedAt": "2018-03-23T01:08:28.924Z"
    },
    {
+     "id": "7269e5c5-9e36-41e1-8e65-a9a1d5211451",
+     "name": "Willie's Locally Known",
+     "slug": "willies",
+     "address": "286 Southland Dr, Lexington, KY 40503",
+     "g_map_link": "https://goo.gl/maps/JrkeNyaaVny",
+     "createdAt": "2018-04-01T01:08:28.924Z",
+     "updatedAt": "2018-04-01T01:08:28.924Z"
+   },
+   {
+     "id": "f0f86bb1-ff18-4ff4-86fa-20426c10b2a3",
+     "name": "BCTC Cooper Campus - RM 230",
+     "slug": "rm_230",
+     "address": "286 Southland Dr, Lexington, KY 40503",
+     "g_map_link": "https://goo.gl/maps/JrkeNyaaVny",
+     "createdAt": "2018-04-01T01:08:28.924Z",
+     "updatedAt": "2018-04-01T01:08:28.924Z"
+   },
+   {
+     "id": "edfd1bc5-f78a-4f5c-ac5f-b2892b7207a4",
+     "name": "Carnegie Center for Literacy & Learning",
+     "slug": "carnegie",
+     "address": "251 West Second St, Lexington, KY 40507",
+     "g_map_link": "https://goo.gl/maps/FrnrPXZ8x6F2",
+     "createdAt": "2018-04-01T01:08:28.924Z",
+     "updatedAt": "2018-04-01T01:08:28.924Z"
+   },
+   {
      "id": "4f5c7260-047a-11e8-808e-07b6d0fe568b",
      "name": "Lyric Theatre & Cultural Arts Center",
      "slug": "lyric_theater",
@@ -216,7 +243,7 @@
    },
    {
      "id":"637de4f0-d3c3-403a-b57a-8975e242763c",
-     "name":"Anne Wright Wilson Gallery at Georgetown College",
+     "name":"The Galleries at Georgetown College",
      "g_map_link":"https://goo.gl/maps/xpSh1D4UKL62",
      "address":"400 E College St, Georgetown, KY 40324",
      "createdAt": "2018-04-06T01:08:28.924Z",
