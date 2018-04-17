@@ -27,6 +27,15 @@
      "updatedAt": "2018-03-23T01:08:28.924Z"
    },
    {
+     "id": "8e136d93-36a0-4317-a6d8-91ac62a063a6",
+     "name": "Broomwagon",
+     "slug": "broomwagon",
+     "address": "800 N Limestone, Lexington, KY 40505",
+     "g_map_link": "https://goo.gl/maps/MerUrvdgk9u",
+     "createdAt": "2018-04-17T01:08:28.924Z",
+     "updatedAt": "2018-04-17T01:08:28.924Z"
+   },
+   {
      "id": "e0f0ee00-0479-11e8-808e-07b6d0fe568b",
      "name": "Bolivar Art Gallery - UK School of Art",
      "slug": "bolivar_art",
@@ -41,6 +50,15 @@
      "slug": "cosmic",
      "address": "723 National Ave, Lexington, KY 40502",
      "g_map_link": "https://goo.gl/maps/DRBPSQwjpYu",
+     "createdAt": "2018-03-23T01:08:28.924Z",
+     "updatedAt": "2018-03-23T01:08:28.924Z"
+   },
+   {
+     "id":"8972deb8-983a-4573-868d-122593a8ecc0",
+     "name": "Francisco's Farm Art Fair",
+     "slug": "francisco_farm",
+     "address": "512 E Stephens St, Midway, KY 40347",
+     "g_map_link": "https://goo.gl/maps/sBMznQCqzLn",
      "createdAt": "2018-03-23T01:08:28.924Z",
      "updatedAt": "2018-03-23T01:08:28.924Z"
    },
