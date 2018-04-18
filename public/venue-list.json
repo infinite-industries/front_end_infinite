@@ -45,6 +45,33 @@
      "updatedAt": "2018-03-23T01:08:28.924Z"
    },
    {
+     "id": "63849494-a77f-4744-ab47-1c9963267513",
+     "name": "Al's Bar",
+     "slug": "als_bar",
+     "address": "601 N Limestone, Lexington, KY 40508",
+     "g_map_link": "https://goo.gl/maps/Dy83JkQ83Ar",
+     "createdAt": "2018-03-23T01:08:28.924Z",
+     "updatedAt": "2018-03-23T01:08:28.924Z"
+   },
+   {
+     "id": "df4e289b-08ff-4561-97fc-4a227210486b",
+     "name": "Josephine Sculpture Park",
+     "slug": "josephine_sculpture_park",
+     "address": "3355 Lawrenceburg Rd, Frankfort, KY 40601",
+     "g_map_link": "https://goo.gl/maps/Pxxm1cJXqmt",
+     "createdAt": "2018-03-23T01:08:28.924Z",
+     "updatedAt": "2018-03-23T01:08:28.924Z"
+   },
+   {
+     "id": "d440a7b5-50e0-4b5b-9d51-01f70fa91783",
+     "name": "Creaux",
+     "slug": "creaux",
+     "address": "310 West Short St., Lexington, KY 40507",
+     "g_map_link": "https://goo.gl/maps/52aovGtGRvr",
+     "createdAt": "2018-03-23T01:08:28.924Z",
+     "updatedAt": "2018-03-23T01:08:28.924Z"
+   },
+   {
      "id": "f1c12100-0479-11e8-808e-07b6d0fe568b",
      "name": "Cosmic Charlie's",
      "slug": "cosmic",
