@@ -109,9 +109,9 @@
         </div>
         {% endif %}
 
-        <div class="infinite-dropdown ii-social-button dropbtn" onclick="toggleDropdown()" style="background-color: rgb(38, 186, 71)">
+        <div class="infinite-dropdown ii-social-button add-event-to-cal dropbtn" onclick="toggleDropdown()" style="background-color: rgb(38, 186, 71)">
           <i class="fas fa-calendar-alt ii-social-icon"></i>
-          <span>Download</span>
+          <span>Add to Calendar</span>
           <div id="calDropdown" class="infinite-dropdown-content">
             <a href='javascript:addToCalendar(0)'>iCal</a>
             <a href='javascript:addToCalendar(1)'>Outlook</a>
@@ -154,7 +154,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             InfiniteAnalytics("{{id}}", "load_view", "", "{{site_url}}")
             document.getElementById('facfb-share-buttonebook_share').addEventListener('click', function() {
-              //console.log('!!! foo')
+              console.log('!!! foo')
             })
         })
 
