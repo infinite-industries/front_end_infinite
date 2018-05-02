@@ -80,12 +80,37 @@
           <a href="{{site_url}}"><i class="medium material-icons">close</i></a>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col s10">
+          <div class="ii-event-actions">
+            {% if event.hasOwnProperty('map_link') and event.map_link!="none" %}
+            <div class="ii-social-button" onclick="mapLink()" style="background-color: rgb(126, 66, 179)">
+              <i class="fas fa-map-marker-alt ii-social-icon"></i>
+              <span>Directions</span>
+            </div>
+            {% endif %}
+
+            <div class="infinite-dropdown ii-social-button add-event-to-cal dropbtn" onclick="toggleDropdown()" style="background-color: rgb(38, 186, 71)">
+              <i class="fas fa-calendar-alt ii-social-icon"></i>
+              <span>Add to Calendar</span>
+              <div id="calDropdown" class="infinite-dropdown-content">
+                <a href='javascript:addToCalendar(0)'>iCal</a>
+                <a href='javascript:addToCalendar(1)'>Outlook</a>
+                <a href='javascript:addToCalendar(2)'>Google Calendar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col s12">
           <img src="{{event.image}}" width="100%" height="auto" />
         </div>
       </div>
     </div>
+
     <div class="container event-description">
       <div class="ii-event-actions">
         <div class="ii-social-button" onclick="fbShare()" style="background-color: rgb(66, 102, 178)">
@@ -102,6 +127,8 @@
           <span>Link</span>
         </div>
         {% endif %}
+      </div>
+      <!-- <div class="ii-event-actions ">
         {% if event.hasOwnProperty('map_link') and event.map_link!="none" %}
         <div class="ii-social-button" onclick="mapLink()" style="background-color: rgb(126, 66, 179)">
           <i class="fas fa-map-marker-alt ii-social-icon"></i>
@@ -118,6 +145,7 @@
             <a href='javascript:addToCalendar(2)'>Google Calendar</a>
           </div>
         </div>
+      </div> -->
 
         <script>
           function fbShare() {
@@ -215,7 +243,7 @@
           }
         }
         </script>
-      </div>
+
 
       {% if event.hasOwnProperty('admission_fee') and event.admission_fee!="none" %}
         <div class="row">
