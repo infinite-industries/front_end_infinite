@@ -261,6 +261,16 @@
      "updatedAt": "2018-03-23T01:08:28.924Z"
    },
    {
+     "id": "197d2c60-6b9a-412f-9cfc-468e25a5c9cc",
+     "name": "The Parachute Factory",
+     "slug": "theparachutefactory",
+     "address": "720 Bryan Ave. Lexington KY",
+     "g_map_link": "https://goo.gl/maps/3BFZuB9ffa92",
+     "createdAt": "2018-03-23T01:08:28.924Z",
+     "updatedAt": "2018-03-23T01:08:28.924Z"
+   },
+
+   {
      "id": "89cd986b-382b-4bf3-95b4-9b2e42db335b",
      "name": "UK Art Museum",
      "slug": "ukartmueum",
@@ -303,6 +313,22 @@
      "address":"110 Morgan Street, Versailles, KY 40383",
      "createdAt": "2018-04-06T01:08:28.924Z",
      "updatedAt": "2018-04-06T01:08:28.924Z"
+   },
+   {
+     "id":"82e54963-3293-467d-94a5-a6a880b1cbe8",
+     "name":"Visit LEX",
+     "g_map_link":"https://goo.gl/maps/5SYUB3uukJA2",
+     "address":"401 W Main St, Lexington, KY 40507",
+     "createdAt": "2018-05-01T01:08:28.924Z",
+     "updatedAt": "2018-05-01T01:08:28.924Z"
+   },
+   {
+     "id":"4af4fdd0-bff5-4b41-9634-ca537a0e94a2",
+     "name":"Rock House Brewing",
+     "g_map_link":"https://goo.gl/maps/yPox1KFNdfm",
+     "address":"119 Luigart Ct, Lexington, KY 40508",
+     "createdAt": "2018-05-01T01:08:28.924Z",
+     "updatedAt": "2018-05-01T01:08:28.924Z"
    },
    {
      "id":"637de4f0-d3c3-403a-b57a-8975e242763c",
