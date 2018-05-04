@@ -25,6 +25,7 @@ router.get('/', function(req, res){
 
   ics.createEvent({
     title: title,
+    productId: 'infinite/ics',
     description: description,
     location: location,
     start: time_start,
@@ -41,7 +42,6 @@ router.get('/', function(req, res){
       res.end()
     }
   })
-
 
 })
 
