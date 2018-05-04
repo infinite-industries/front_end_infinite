@@ -80,7 +80,7 @@ export default {
       })
       if (calType === "iCal" || calType === "Outlook") {
         // send event data to node layer to be converted into an .ics file
-        window.open(`/calendar?title=${encodeURIComponent(event.title)}&description=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}&time_start=${encodeURIComponent(event.time_start)}&time_end=${encodeURIComponent(event.time_end)}`);
+        window.location = `/calendar?title=${encodeURIComponent(event.title)}&description=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}&time_start=${encodeURIComponent(event.time_start)}&time_end=${encodeURIComponent(event.time_end)}`;
       } else if (calType === "Google Calendar") {
         var time_start_formatted = moment(event.time_start).format('YYYYMMDDTHHmmss');
         var time_end_formatted = moment(event.time_end).format('YYYYMMDDTHHmmss');
