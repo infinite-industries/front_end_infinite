@@ -35,7 +35,7 @@ router.get('/', function(req, res){
       res.json({"status":"error", "reason":"Unable to generate a calendar file"})
     } else {
       res.setHeader('Content-disposition', 'attachment; filename="'+ file_name + '"')
-      res.setHeader('Content-type', 'text/plain')
+      res.setHeader('Content-type', 'text/calendar')
       res.charset = 'UTF-8'
       res.write(value)
       res.end()
