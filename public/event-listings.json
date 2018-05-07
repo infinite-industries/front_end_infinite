@@ -1,31 +1,4 @@
 [
-
-      {
-             "id":"e14b5d82-4593-4581-ba1c-564c061cd89c",
-             "title":"Al's Bar Eleven Year Anniversary Block Party With Six Good Bands",
-             "slug":"al's-bar-eleven-year-anniversary-block-party-with-six-good-bands",
-             "when_date":"Saturday, May 5th, 2018",
-             "when_time":"6:00pm - 11:59pm",
-             "time_start":"2018-05-05 18:00:00",
-             "time_end": "2018-05-05 23:59:00",
-             "website_link": "none",
-             "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/e14b5d82-4593-4581-ba1c-564c061cd89c.jpg",
-             "social_image":"undefined",
-             "venues":["Al's Bar"],
-             "venue_id":"63849494-a77f-4744-ab47-1c9963267513",
-             "admission_fee": "none",
-             "address": "601 N Limestone, Lexington, KY 40508",
-             "organizers":[""],
-             "map_link":"https://goo.gl/maps/naMxQHVzL2t",
-             "brief_description":"Celebrate 11 years of Al's Bar with us",
-             "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Celebrate 11 years of Al's Bar with us!</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Indoor & outdoor stages</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>6 bands, DJ tba, food by Fida's, and only $5 ($8 for 18-20)</span></p><p><br></p><p><a href='https://www.facebook.com/leadenverse/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>Leaden Verse</a></p><p><a href='https://www.facebook.com/sourcreamband/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>Sour Cream Band</a></p><p><a href='https://www.facebook.com/antipressure/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>Anti-Pressure</a></p><p><a href='https://www.facebook.com/sweetcountrymeatboys/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>Sweet Country Meat Boys</a></p><p><a href='https://www.facebook.com/peopleplanet/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>People Planet</a></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Big Chill (</span><a href='https://www.facebook.com/big.chill.5' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>David Napier</a><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>)</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Schedule TBA</span></p>",
-             "links":["none"],
-             "ticket_link":"none",
-             "fb_event_link":"https://www.facebook.com/events/177293326419337/",
-             "eventbrite_link":"none",
-             "bitly_link":"http://bit.ly/2FetWBb",
-             "tags":["not-yet-implemented"]
-           },
       {
          "id":"bca1f62e-a10e-4cb2-bbe7-8fe50881e973",
          "title":"GILT // Nesh // D.A.D. // Flying Things at Cosmic Charlie's",
