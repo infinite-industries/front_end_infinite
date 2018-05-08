@@ -469,6 +469,36 @@
              "tags":["not-yet-implemented"]
            },
 
+           {
+                  "id":"67292e9b-05d0-44a6-a36b-e593eb2f0be9",
+                  "title":"Excessive Realness",
+                  "slug":"excessive-realness",
+                  "when_date":"Tuesday, June 26th to Friday, June 29th, 2018",
+                  "when_time":"",
+                  "time_start":"2018-06-26 10:00:00",
+                  "time_end": "2018-06-29 23:59:00",
+                  "website_link": "http://excessiverealness.com/classes-2018/",
+                  "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/67292e9b-05d0-44a6-a36b-e593eb2f0be9.jpg",
+                  "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/67292e9b-05d0-44a6-a36b-e593eb2f0be9.jpg",
+                  "venues":["Pam Miller Downtown Arts Center"],
+                  "venue_id":"28eed072-7ef6-4726-b3a4-bc7bbe0ee3a1",
+                  "admission_fee": "none",
+                  "address": "141 E Main St",
+                  "organizers":[""],
+                  "map_link":"https://goo.gl/maps/qAzN13Ub5iA2",
+                  "brief_description":"A dance intensive geared toward LGTBQIA+ dancers and performing artists, has opened registration and is welcoming participants",
+                  "description":"<p><strong>Excessive Realness</strong>, a dance intensive geared toward LGTBQIA+ dancers and performing artists, has opened registration and is welcoming participants!</p><p><br></p><p>The intensive takes place at the Pam Miller Downtown Arts Complex in Lexington, KY, Tuesday June 26th to Friday June 29th, 2018. Classes begin at 10am on Tuesday and the intensive ends with a performance, called The SPILL, on Friday evening. The performance is free and open to the public.&nbsp;</p><p><br></p><p class='ql-align-center'><a href='http://excessiverealness.com/registration/' target='_blank'>Register NOW!</a> </p><p><br></p><p>The intensive costs $150 total, plus a registration fee. This includes 12 classes, 3 roundtable discussions with artists, and priority seating for the performance. We have financial scholarships available. If you are in need of a financial scholarship, please contact us.</p><p><br></p><p><a href='http://excessiverealness.com/faculty-2018/' target='_blank'>The Guest Artists</a>, who will both teach and perform at the intensive, are:</p><p><br></p><p>Ya-Ya&nbsp;Fairley,&nbsp;</p><p>teaching 'Disruptive Bodies: Performance Lab in Bodily Release and Resistance'</p><p><br></p><p>Kristi Faulkner (Kristi Faulkner Dance),&nbsp;</p><p>teaching 'Falling & Rolling'</p><p><br></p><p>Ally Garcia,&nbsp;</p><p>teaching 'Hip Hop'&nbsp;</p><p><br></p><p>Anna Maynard,&nbsp;</p><p>teaching 'Improvisation: An act of 'homing'</p><p><br></p><p>Donald C. Shorter Jr.,</p><p>teaching 'Bill T. Jones/Arnie Zane Masterclass'</p><p><br></p><p>We are very excited for all of the Guest Artists!&nbsp;</p><p><br></p><p>This intensive is the first of its kind in the US and we hope that you will consider being apart of this amazing opportunity.</p><p><br></p><p><strong>Saturday</strong></p><p>June 30th is Lexington's Pride Festival, we hope that you can also stay for those festivities. Any questions or concerns can be answered by the Co-Directors Allison Blakeney (<a href='mailto:Allison.Blakeney@gmail.com' target='_blank'>Allison.Blakeney@gmail.com</a>) and Anthony Alterio (<a href='mailto:Anthony.m.alterio@gmail.com' target='_blank'>Anthony.m.alterio@gmail.com</a>), or send them a message on the <a href='https://www.facebook.com/excessiverealness/' target='_blank'>Excessive Realness Facebook Page</a>.</p>",
+                  "links":["none"],
+                  "ticket_link":"none",
+                  "fb_event_link":"https://www.facebook.com/excessiverealness/",
+                  "eventbrite_link":"none",
+                  "bitly_link":"http://bit.ly/2KKmRMA",
+                  "tags":["not-yet-implemented"]
+                },
+
+
+
+
       {
              "id":"b249f102-cd5e-4e07-8816-940a4b0552b3",
              "title":"Director Tour",

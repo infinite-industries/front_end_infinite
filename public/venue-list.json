@@ -343,5 +343,13 @@
      "address":"401 Hilltop Ave, Lexington, KY 40506",
      "createdAt": "2018-04-06T01:08:28.924Z",
      "updatedAt": "2018-04-06T01:08:28.924Z"
+   },
+   {
+     "id":"28eed072-7ef6-4726-b3a4-bc7bbe0ee3a1",
+     "name":"Pam Miller Downtown Arts Center",
+     "g_map_link":"https://goo.gl/maps/qAzN13Ub5iA2",
+     "address":"141 E Main St, Lexington, KY 40507",
+     "createdAt": "2018-04-06T01:08:28.924Z",
+     "updatedAt": "2018-04-06T01:08:28.924Z"
    }
 ]
