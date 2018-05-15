@@ -1,31 +1,4 @@
 [
-
-     {
-       "id":"7e69d1fc-2cc1-49e4-ad7d-a34502e61d22",
-       "title":"A Wig Party at Fleet Street",
-       "slug":"a-wig-party-at-fleet-street",
-       "when_date":"Monday, May 14th, 2018",
-       "when_time":"7:00pm - 9:00pm",
-       "time_start":"2018-05-14 19:00:00",
-       "time_end": "2018-05-14 21:00:00",
-       "website_link": "none",
-       "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/7e69d1fc-2cc1-49e4-ad7d-a34502e61d22.jpg",
-       "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/7e69d1fc-2cc1-49e4-ad7d-a34502e61d22.jpg",
-       "venues":["Fleet Street Hair Shoppe"],
-       "venue_id":"dbc17929-fa2e-4453-8f31-c3d4e25e14d0",
-       "admission_fee": "$5.00",
-       "address": "",
-       "organizers":[""],
-       "map_link":"https://goo.gl/maps/rwiv7RnhvRM2",
-       "brief_description":"Join us at FLEET STREET for a SUPER fun night focused on 17th century wigs",
-       "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(75, 79, 86);'>Ok - not the right spelling or even the right century - but our dad joke was pretty funny.&nbsp;</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(75, 79, 86);'>Join us at FLEET STREET for a SUPER fun night focused on 17th century wigs! Save those toilet paper rolls folks - this night is going to be awesome! $5 for the class! (We will update with booze situation)</span></p>",
-       "links":["none"],
-       "ticket_link":"none",
-       "fb_event_link":"https://www.facebook.com/events/189807805076181/",
-       "eventbrite_link":"none",
-       "bitly_link":"http://bit.ly/2KLlflS",
-       "tags":["not-yet-implemented"]
-     },
       {
        "id":"ba4ac6b0-3208-11e8-990f-11d70dacb4cc",
        "title":"Lunafest Lexington",
