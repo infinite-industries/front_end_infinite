@@ -282,11 +282,21 @@
      "id": "9d4df28f-78bc-4328-afa0-cb7064e276a6",
      "name": "West Sixth Brewing",
      "slug": "west_sixth_brewing",
+     "address": "610 W 3rd St, Lexington, KY 40508",
+     "g_map_link": "541ff95c-b002-48fa-ab5e-86342c4e16f0",
+     "createdAt": "2018-04-23T01:08:28.924Z",
+     "updatedAt": "2018-04-23T01:08:28.924Z"
+   },
+   {
+     "id": "9d4df28f-78bc-4328-afa0-cb7064e276a6",
+     "name": "Blue Stallion Brewing Co.",
+     "slug": "blue_stallion",
      "address": "501 W 6th St #100, Lexington, KY 40508",
      "g_map_link": "https://goo.gl/maps/FXySNa1V6CK2",
      "createdAt": "2018-04-23T01:08:28.924Z",
      "updatedAt": "2018-04-23T01:08:28.924Z"
    },
+
    {
      "id": "4bf24a00-4739-4efc-9b35-07e3d6a1629a",
      "name": "Kentucky for Kentucky",
