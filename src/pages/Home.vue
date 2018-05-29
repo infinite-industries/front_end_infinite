@@ -1,40 +1,66 @@
 <template>
   <v-container fluid>
-    <h1>Upcoming Events:</h1>
+
      <v-layout row ii-offset wrap>
 
       <template v-for= "event in events">
        <v-flex sm4 lg3 event-card-container v-if="true">
           <v-card style="margin-bottom: 10px; min-height: 100%;" >
-            <v-card-media :src="event.image" height="200px" @click.stop="ShowEvent(event.id)">
+
+            <v-card-media :src="event.image" height="200px" @click.stop="ShowEvent(event)">
             </v-card-media>
             <v-card-title primary-title>
               <div>
                 <h3 class="headline mb-0">{{event.title}}</h3>
-                <div class="event-venue">
-                  {{event.venues[0]}}
+
+                <div v-if="event.type==='calendar_event'">
+
+                  <div class="event-venue">
+                    {{event.venues[0]}}
+                  </div>
+                  <div class="event-date">
+                    {{event.when_date}}<br>{{event.when_time}}
+                  </div>
+
                 </div>
-                <div class="event-date">
-                  {{event.when_date}}<br>{{event.when_time}}
+                <div v-else>
+                  <div class="event-venue">
+                    Source: {{event.source}}
+                  </div>
+                  <div class="event-date">
+                    Author: {{event.author}}
+                  </div>
+
                 </div>
+
                 <div>{{event.brief_description}}...</div>
               </div>
             </v-card-title>
 
-            <v-card-actions style="width: 100%;">
-              <v-btn flat class="orange--text" @click.stop="ShowEvent(event.id)">More Info</v-btn>
-              <v-menu class="download-event-button" style="position: absolute; right: 0;" offset-y>
-                <v-btn outline small color="indigo" slot="activator" style="padding:0px;">
-                  <v-icon large style="font-size: 20px;">event</v-icon> ADD TO CALENDAR
-                </v-btn>
-                <v-list style="background:white;">
-                  <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType, event)">
-                    <v-list-tile-title >{{ calType }}</v-list-tile-title>
-                  </v-list-tile>
-                </v-list>
-              </v-menu>
-            </v-card-actions>
 
+
+            <div v-if="event.type==='calendar_event'">
+              <v-card-actions style="width: 100%;">
+                <v-btn flat class="orange--text" @click.stop="ShowEvent(event)">More Info</v-btn>
+                <v-menu class="download-event-button" style="position: absolute; right: 0;" offset-y>
+                  <v-btn outline small color="indigo" slot="activator" style="padding:0px;">
+                    <v-icon large style="font-size: 20px;">event</v-icon> ADD TO CALENDAR
+                  </v-btn>
+                  <v-list style="background:white;">
+                    <v-list-tile v-for="calType in calTypes" @click="AddEventToCalendar(calType, event)">
+                      <v-list-tile-title >{{ calType }}</v-list-tile-title>
+                    </v-list-tile>
+                  </v-list>
+                </v-menu>
+              </v-card-actions>
+            </div>
+            <div v-else>
+              <v-card-actions style="width: 100%;">
+                <v-btn outline small @click.stop="ShowEvent(event)" color="indigo" slot="activator" style="padding:0px; right:10px; bottom:10px; position:absolute;">
+                  {{event.call}}
+                </v-btn>
+              </v-card-actions>
+            </div>
 
           </v-card>
         </v-flex>
@@ -88,15 +114,20 @@ export default {
         window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(event.brief_description)}&location=${encodeURIComponent(event.address)}`);
       }
     },
-    ShowEvent: function(event_id){
+    ShowEvent: function(event){
       InfiniteAnalytics({
-        event_id,
+        event_id : event.id,
         action_type: "expand_view",
         view_type: "card",
         user_agent: navigator.userAgent
       })
-      console.log(event_id);
-      window.location.assign('/event/'+ event_id);
+      console.log(event.id);
+      if(event.type==="calendar_event"){
+        window.location.assign('/event/'+ event.id);
+      }
+      else{
+        window.open(event.link);
+      }
     }
   }
 }
