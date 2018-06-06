@@ -71,6 +71,17 @@
      "createdAt": "2018-03-23T01:08:28.924Z",
      "updatedAt": "2018-03-23T01:08:28.924Z"
    },
+   
+   {
+     "id":"c963e8ad-ece9-4bfa-ace8-8e2f5735d5c6",
+     "name":"University of Kentucky White Hall Classroom Building",
+     "slug":"whitehall",
+     "address":"140 Patterson Dr, Lexington, KY 40506",
+     "g_map_link": "https://goo.gl/maps/EfUvUeF9Vez",
+     "createdAt": "2018-06-06T01:08:28.924Z",
+     "updatedAt": "2018-06-06T01:08:28.924Z"
+   },
+
    {
      "id": "f1c12100-0479-11e8-808e-07b6d0fe568b",
      "name": "Cosmic Charlie's",
