@@ -1,5 +1,5 @@
 [
-  
+
   {
          "id":"61ce6e03-3708-4bca-9a07-bdad262b2beb",
          "title":"Tonstartssbandht w/ Daniel Case and Robert Beatty",
@@ -27,6 +27,63 @@
          "bitly_link":"http://bit.ly/2xSiw7w",
          "tags":["not-yet-implemented"]
        },
+
+
+            {
+                   "id":"872a57fd-ee37-4fa5-ab4e-8eea2f6688e3",
+                   "title":"Circus Takes Lex: Summer Carnivale",
+                   "type" :"calendar_event",
+                   "slug":"circus-takes-lex:-summer-carnivale",
+                   "when_date":"Saturday, June 16th, 2018",
+                   "when_time":"4:00pm - 9:00pm",
+                   "time_start":"2018-06-16 16:00:00",
+                   "time_end": "2018-06-16 21:00:00",
+                   "website_link": "none",
+                   "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/872a57fd-ee37-4fa5-ab4e-8eea2f6688e3.jpg",
+                   "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/872a57fd-ee37-4fa5-ab4e-8eea2f6688e3.jpg",
+                   "venues":["Lexington Art League"],
+                   "venue_id":"22716c60-047a-11e8-808e-07b6d0fe568b",
+                   "admission_fee": "none",
+                   "address": "209 Castlewood Dr, Lexington, Kentucky 40505",
+                   "organizers":[""],
+                   "map_link":"https://goo.gl/maps/PmtR8kAQPRM2",
+                   "brief_description":"Live Circus Performances from Junior & Senior Circus Company Sora Contemporary Circus",
+                   "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Join Sora Aerial Arts for a family-friendly Carnivale event at the Loudon House!</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>What to Expect:&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Live Circus Performances from Junior & Senior Circus Company Sora Contemporary Circus</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Food Trucks (Rise Up Pizza, Repicci's Italian Ice of the Bluegrass, Jasmine Rice Thai & Vietnamese Cuisine)</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Drinks (alcoholic & non-alcoholic) Hartfield & Co.</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Live Music Rob Dread and The KMA</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Free Scavenger Hunt&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Henna&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Face Painting&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Ring Toss</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Giant Jenga</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Free Cornhole Tournament&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Tarot Reader/Fortune Teller Sabrina Webb</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Clown Performance&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Arts & Crafts (Masquerade Yourself)</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Dance Workshops</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Free community Aerial Classes (For Kids & Adults)</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Silent Auction</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Clown Classes&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Balloon Making</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Free Yoga in the Yard&nbsp;</span></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>- Instagram Photo Contest</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>** This will be truly a park experience so feel free to bring yoga mats/blankets as seating will be limited **</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Tickets available now or at day of event.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>All ticket proceeds go to help Sora in our relocation and outreach program for 2018.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>For more info on our Kickstarter, visit&nbsp;</span><a href='https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kickstarter.com%2Fprojects%2F1757042348%2Fcircus-takes-lexington&h=ATPMRgfSVmuQ3Azss4qu9JujoRnts2p2zJnkNG55qZISeIWPzrsIyE-WoCYeDHDZWG8HNlUQkNAx_Q_rv6IpgRU4LYf4IzZ_ZrzeWtHScHQ3kj5jlfHZOck&s=1' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>https://www.kickstarter.com/projects/1757042348/circus-takes-lexington</a><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>.</span></p>",
+                   "links":["none"],
+                   "ticket_link":"https://circustakeslex.brownpapertickets.com/",
+                   "fb_event_link":"https://www.facebook.com/events/591388551223210/",
+                   "eventbrite_link":"none",
+                   "bitly_link":"http://bit.ly/2t6CXbk",
+                   "tags":["not-yet-implemented"]
+                 },
+
+       {
+              "id":"d191c721-2fce-4cc9-92cd-9875144b90c7",
+              "title":"Dragonheart Screening + Q&A with Charles Pogue",
+              "type" :"calendar_event",
+              "slug":"dragonheart-screening-q&a-with-charles-pogue",
+              "when_date":"Tuesday, June 19th, 2018",
+              "when_time":"7:00pm - 9:00pm",
+              "time_start":"2018-06-19 19:00:00",
+              "time_end": "2018-06-19 21:00:00",
+              "website_link": "none",
+              "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/d191c721-2fce-4cc9-92cd-9875144b90c7.jpg",
+              "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/d191c721-2fce-4cc9-92cd-9875144b90c7.jpg",
+              "venues":["Farish Theater"],
+              "venue_id":"446e9860-047a-11e8-808e-07b6d0fe568b",
+              "admission_fee": "none",
+              "address": "140 E Main St, Lexington, Kentucky 40507",
+              "organizers":[""],
+              "map_link":"https://goo.gl/maps/ewNPYZsX95L2",
+              "brief_description":"Please join us for the screening of DRAGONHEART, written by Kentucky's own Charles Edward Pogue (THE FLY, PSYCHO III)",
+              "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>In honor of his appearance at this year's Harry Dean Stanton Fest, we are hosting two Dennis Quaid screenings during the month of June!</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Please join us on Tuesday, June 19 for the 1996 film DRAGONHEART, written by Kentucky's own Charles Edward Pogue (THE FLY, PSYCHO III). Mr. Pogue will join us to discuss the film and share some behind-the-scenes stories from his time on set.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>This is a free event.</span></p>",
+              "links":["none"],
+              "ticket_link":"none",
+              "fb_event_link":"https://www.facebook.com/events/219554271968826/",
+              "eventbrite_link":"none",
+              "bitly_link":"http://bit.ly/2JJ0qGP",
+              "tags":["not-yet-implemented"]
+            },
 
 {
   "id":"be7cdf98-b4b9-49d8-bd19-d9fb6c119ad1",
@@ -141,6 +198,34 @@
          "bitly_link":"http://bit.ly/2IFi15N",
   "tags":["not-yet-implemented"]
        },
+
+       {
+              "id":"dc11655c-31a0-4e03-a75d-7bac51060a38",
+              "title":"Horse's Mouth Storytelling Night: Lost and Found",
+              "type" :"calendar_event",
+              "slug":"horses-mouth-storytelling-night:-lost-and-found",
+              "when_date":"Sunday, June 24th, 2018",
+              "when_time":"7:00pm - 8:00pm",
+              "time_start":"2018-06-24 19:00:00",
+              "time_end": "2018-06-24 20:00:00",
+              "website_link": "none",
+              "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/dc11655c-31a0-4e03-a75d-7bac51060a38.jpg",
+              "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/dc11655c-31a0-4e03-a75d-7bac51060a38.jpg",
+              "venues":["West Sixth Brewing"],
+              "venue_id":"9d4df28f-78bc-4328-afa0-cb7064e276a6",
+              "admission_fee": "none",
+              "address": "610 W 3rd St, Lexington, KY 40508",
+              "organizers":[""],
+              "map_link":"https://goo.gl/maps/zAKHh7iaC1w",
+              "brief_description":"A night of true stories told live! Come hear tales of the things we've lost and found--or maybe just what we wish we could lose and find",
+              "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>A night of true stories told live! Come hear tales of the things we've lost and found--or maybe just what we wish we could lose and find!&nbsp;</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>If you'd like to tell a story, drop a line to horsesmouthstorytelling@gmail.com</span></p>",
+              "links":["none"],
+              "ticket_link":"none",
+              "fb_event_link":"https://www.facebook.com/events/432961460500282/",
+              "eventbrite_link":"none",
+              "bitly_link":"http://bit.ly/2sVf7jL",
+              "tags":["not-yet-implemented"]
+            },
 
   {
          "id":"15affabf-7d8f-496b-8ee3-24558df0dd42",
