@@ -2,6 +2,7 @@
   {
          "id":"ed46bb22-3245-4267-9fb6-2eee96128e76",
          "title":"Conversations with Creatives",
+         "type" :"calendar_event",
          "slug":"conversations-with-creatives",
          "when_date":"Tuesday, July 10th, 2018",
          "when_time":"6:00pm - 8:00pm",
