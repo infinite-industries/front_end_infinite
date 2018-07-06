@@ -166,6 +166,35 @@
          "bitly_link":"http://bit.ly/2MpPKhR",
          "tags":["not-yet-implemented"]
        },
+
+       {
+              "id":"7b56a4c3-d418-4ae4-8ce4-d9e0160d6296",
+              "title":"Music in Transparent Layers",
+              "type" :"calendar_event",
+              "slug":"music-in-transparent-layers",
+              "when_date":"Friday, July 13th, 2018",
+              "when_time":"6:00pm - 9:00pm",
+              "time_start":"2018-07-13 18:00:00",
+              "time_end": "2018-07-13 21:00:00",
+              "website_link": "none",
+              "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/7b56a4c3-d418-4ae4-8ce4-d9e0160d6296.jpg",
+              "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/7b56a4c3-d418-4ae4-8ce4-d9e0160d6296.jpg",
+              "venues":["21C Lexington"],
+              "venue_id":"181af060-047a-11e8-808e-07b6d0fe568b",
+              "admission_fee": "none",
+              "address": "167 W Main St, Lexington, KY 40507",
+              "organizers":[""],
+              "map_link":"https://goo.gl/maps/y53p9xLcNcU2",
+              "brief_description":"MUSIC IN TRANSPARENT LAYERS is an experimental ambient composition by Rob Collier, performed in 10 stages over 10 consecutive days. Each daily performance represents one layer, represented and re-performed audio-visually under every subsequent layer.",
+              "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Free and open to the public!</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>MUSIC IN TRANSPARENT LAYERS is an experimental ambient composition by Rob Collier, performed in 10 stages over 10 consecutive days. Each daily performance represents one layer, represented and re-performed audio-visually under every subsequent layer.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>ROB COLLIER is a Milwaukee-based composer and performer. His music has been released on auralgamiSOUNDS and Capstone Records in the United States, and Unlabel, WM Recordings, and Greed Recordings in Europe. Collier’s music is meditative and hypnotic, utilizing repetition and simple compositional processes as a means of development. His latest solo release is 13 Stages on auralgamiSOUNDS.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Ben Aguilar (Louisville, Kentucky) is an audio engineer, musician, and educator. His recording and performance work with Rob Collier has appeared on auralgamiSOUNDS, and he has accrued an extensive live performance history as sideman for experimental artists and via the PLAY radio hour and b.u. drone collective, both of which he founded.</span></p>",
+              "links":["none"],
+              "ticket_link":"none",
+              "fb_event_link":"https://www.facebook.com/events/1049502165174772",
+              "eventbrite_link":"none",
+              "bitly_link":"http://bit.ly/2u3cBYi",
+              "tags":["not-yet-implemented"]
+            },
+
        {
          "id": "b249f102-cd5e-4e07-8816-940a4b0552b3",
          "title": "Director Tour",
