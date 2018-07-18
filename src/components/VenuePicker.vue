@@ -42,6 +42,7 @@ export default {
       if (this.venues == undefined) {
         return [];
       } else {
+        console.log(this.venues.length);
         return this.venues.filter( venue => {
           return venue.name.toLowerCase().includes(this.searchterm.toLowerCase())
           || venue.address.toLowerCase().includes(this.searchterm.toLowerCase());

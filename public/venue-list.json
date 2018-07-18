@@ -1,375 +1,374 @@
-[
-  {
-    "id": "dbc17929-fa2e-4453-8f31-c3d4e21e14d0",
-    "name": "Kentucky Theater",
-    "slug": "kentucky_theater",
-    "address": "214 E Main St, Lexington, KY 40507",
-    "g_map_link": "https://goo.gl/maps/3kevicLsj6r",
-    "createdAt": "2018-03-23T01:08:28.924Z",
-    "updatedAt": "2018-03-23T01:08:28.924Z"
-  },
-   {
-     "id": "d0858cc0-0478-11e8-808e-07b6d0fe568b",
-     "name": "Institute 193",
-     "slug": "institute_193",
-     "address": "193 N Limestone, Lexington, KY 40507",
-     "g_map_link": "https://goo.gl/maps/PXBsHGVauTB2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "d9107b10-0479-11e8-808e-07b6d0fe568b",
-     "name": "The Burl",
-     "slug": "the_burl",
-     "address": "375 Thompson Rd, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/MerUrvdgk9u",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "8e136d93-36a0-4317-a6d8-91ac62a063a6",
-     "name": "Broomwagon",
-     "slug": "broomwagon",
-     "address": "800 N Limestone, Lexington, KY 40505",
-     "g_map_link": "https://goo.gl/maps/MerUrvdgk9u",
-     "createdAt": "2018-04-17T01:08:28.924Z",
-     "updatedAt": "2018-04-17T01:08:28.924Z"
-   },
-   {
-     "id": "e0f0ee00-0479-11e8-808e-07b6d0fe568b",
-     "name": "Bolivar Art Gallery - UK School of Art",
-     "slug": "bolivar_art",
-     "address": "236 Bolivar St, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/cFTbFbb7TmS2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "63849494-a77f-4744-ab47-1c9963267513",
-     "name": "Al's Bar",
-     "slug": "als_bar",
-     "address": "601 N Limestone, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/Dy83JkQ83Ar",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "df4e289b-08ff-4561-97fc-4a227210486b",
-     "name": "Josephine Sculpture Park",
-     "slug": "josephine_sculpture_park",
-     "address": "3355 Lawrenceburg Rd, Frankfort, KY 40601",
-     "g_map_link": "https://goo.gl/maps/Pxxm1cJXqmt",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "d440a7b5-50e0-4b5b-9d51-01f70fa91783",
-     "name": "Creaux",
-     "slug": "creaux",
-     "address": "310 West Short St., Lexington, KY 40507",
-     "g_map_link": "https://goo.gl/maps/52aovGtGRvr",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
+[{
+		"id": "dbc17929-fa2e-4453-8f31-c3d4e21e14d0",
+		"name": "Kentucky Theater",
+		"slug": "kentucky_theater",
+		"address": "214 E Main St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/3kevicLsj6r",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "d0858cc0-0478-11e8-808e-07b6d0fe568b",
+		"name": "Institute 193",
+		"slug": "institute_193",
+		"address": "193 N Limestone, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/PXBsHGVauTB2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "d9107b10-0479-11e8-808e-07b6d0fe568b",
+		"name": "The Burl",
+		"slug": "the_burl",
+		"address": "375 Thompson Rd, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/MerUrvdgk9u",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "8e136d93-36a0-4317-a6d8-91ac62a063a6",
+		"name": "Broomwagon",
+		"slug": "broomwagon",
+		"address": "800 N Limestone, Lexington, KY 40505",
+		"g_map_link": "https://goo.gl/maps/MerUrvdgk9u",
+		"createdAt": "2018-04-17T01:08:28.924Z",
+		"updatedAt": "2018-04-17T01:08:28.924Z"
+	},
+	{
+		"id": "e0f0ee00-0479-11e8-808e-07b6d0fe568b",
+		"name": "Bolivar Art Gallery - UK School of Art",
+		"slug": "bolivar_art",
+		"address": "236 Bolivar St, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/cFTbFbb7TmS2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "63849494-a77f-4744-ab47-1c9963267513",
+		"name": "Al's Bar",
+		"slug": "als_bar",
+		"address": "601 N Limestone, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/Dy83JkQ83Ar",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "df4e289b-08ff-4561-97fc-4a227210486b",
+		"name": "Josephine Sculpture Park",
+		"slug": "josephine_sculpture_park",
+		"address": "3355 Lawrenceburg Rd, Frankfort, KY 40601",
+		"g_map_link": "https://goo.gl/maps/Pxxm1cJXqmt",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "d440a7b5-50e0-4b5b-9d51-01f70fa91783",
+		"name": "Creaux",
+		"slug": "creaux",
+		"address": "310 West Short St., Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/52aovGtGRvr",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
 
-   {
-     "id":"c963e8ad-ece9-4bfa-ace8-8e2f5735d5c6",
-     "name":"University of Kentucky White Hall Classroom Building",
-     "slug":"whitehall",
-     "address":"140 Patterson Dr, Lexington, KY 40506",
-     "g_map_link": "https://goo.gl/maps/EfUvUeF9Vez",
-     "createdAt": "2018-06-06T01:08:28.924Z",
-     "updatedAt": "2018-06-06T01:08:28.924Z"
-   },
+	{
+		"id": "c963e8ad-ece9-4bfa-ace8-8e2f5735d5c6",
+		"name": "University of Kentucky White Hall Classroom Building",
+		"slug": "whitehall",
+		"address": "140 Patterson Dr, Lexington, KY 40506",
+		"g_map_link": "https://goo.gl/maps/EfUvUeF9Vez",
+		"createdAt": "2018-06-06T01:08:28.924Z",
+		"updatedAt": "2018-06-06T01:08:28.924Z"
+	},
 
-   {
-     "id": "f1c12100-0479-11e8-808e-07b6d0fe568b",
-     "name": "Cosmic Charlie's",
-     "slug": "cosmic",
-     "address": "723 National Ave, Lexington, KY 40502",
-     "g_map_link": "https://goo.gl/maps/DRBPSQwjpYu",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id":"8972deb8-983a-4573-868d-122593a8ecc0",
-     "name": "Francisco's Farm Art Fair",
-     "slug": "francisco_farm",
-     "address": "512 E Stephens St, Midway, KY 40347",
-     "g_map_link": "https://goo.gl/maps/sBMznQCqzLn",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "fca780f0-0479-11e8-808e-07b6d0fe568b",
-     "name": "Best Friend Bar",
-     "slug": "best_friend",
-     "address": "500 Euclid Ave, Lexington, KY 40502",
-     "g_map_link": "https://goo.gl/maps/1A6vVwVXE432",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "0d63ddd0-047a-11e8-808e-07b6d0fe568b",
-     "name": "Whiskey Bear",
-     "slug": "whiskey_bear",
-     "address": "119 Marion, Suite 170, Lexington, Kentucky",
-     "g_map_link": "https://goo.gl/maps/7qSyqTGRyZU2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "181af060-047a-11e8-808e-07b6d0fe568b",
-     "name": "21C Lexington",
-     "slug": "21c_lex",
-     "address": "167 W Main St, Lexington, KY 40507",
-     "g_map_link": "https://goo.gl/maps/y53p9xLcNcU2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "22716c60-047a-11e8-808e-07b6d0fe568b",
-     "name": "Lexington Art League",
-     "slug": "lal",
-     "address": "209 Castlewood Dr, Lexington, Kentucky 40505",
-     "g_map_link": "https://goo.gl/maps/PmtR8kAQPRM2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "29d471f0-047a-11e8-808e-07b6d0fe568b",
-     "name": "Singletary Center for the Arts",
-     "slug": "singletary",
-     "address": "405 Rose St, Lexington, Kentucky 40506",
-     "g_map_link": "https://goo.gl/maps/uLQTd23sBsu",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "30c331e0-047a-11e8-808e-07b6d0fe568b",
-     "name": "The Green Lantern Bar",
-     "slug": "green_lantern",
-     "address": "497 W 3rd St, Lexington, Kentucky 40508",
-     "g_map_link": "https://goo.gl/maps/7qVeS821NtR2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "446e9860-047a-11e8-808e-07b6d0fe568b",
-     "name": "Farish Theater",
-     "slug": "farrish",
-     "address": "140 E Main St, Lexington, Kentucky 40507",
-     "g_map_link": "https://goo.gl/maps/ewNPYZsX95L2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "4a06a1f0-047a-11e8-808e-07b6d0fe568b",
-     "name": "Brier Books",
-     "slug": "brier_books",
-     "address": "319 S Ashland Ave, Lexington, KY 40502",
-     "g_map_link": "https://goo.gl/maps/ebYWdVHj27H2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "7269e5c5-9e36-41e1-8e65-a9a1d5211451",
-     "name": "Willie's Locally Known",
-     "slug": "willies",
-     "address": "286 Southland Dr, Lexington, KY 40503",
-     "g_map_link": "https://goo.gl/maps/JrkeNyaaVny",
-     "createdAt": "2018-04-01T01:08:28.924Z",
-     "updatedAt": "2018-04-01T01:08:28.924Z"
-   },
-   {
-     "id": "f0f86bb1-ff18-4ff4-86fa-20426c10b2a3",
-     "name": "BCTC Cooper Campus - RM 230",
-     "slug": "rm_230",
-     "address": "470 Cooper Dr, Lexington, KY 40506",
-     "g_map_link": "https://goo.gl/maps/cpSL9XwopLC2",
-     "createdAt": "2018-04-01T01:08:28.924Z",
-     "updatedAt": "2018-04-01T01:08:28.924Z"
-   },
-   {
-     "id": "edfd1bc5-f78a-4f5c-ac5f-b2892b7207a4",
-     "name": "Carnegie Center for Literacy & Learning",
-     "slug": "carnegie",
-     "address": "251 West Second St, Lexington, KY 40507",
-     "g_map_link": "https://goo.gl/maps/FrnrPXZ8x6F2",
-     "createdAt": "2018-04-01T01:08:28.924Z",
-     "updatedAt": "2018-04-01T01:08:28.924Z"
-   },
-   {
-     "id": "4f5c7260-047a-11e8-808e-07b6d0fe568b",
-     "name": "Lyric Theatre & Cultural Arts Center",
-     "slug": "lyric_theater",
-     "address": "300 E Third St, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/onMCXLbESuq",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "54348750-047a-11e8-808e-07b6d0fe568b",
-     "name": "Morlan Gallery",
-     "slug": "morland",
-     "address": "300 N Broadway, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/sCZ4P8bUkNw",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "e21ac481-9a9c-40bb-a3b8-43f3cbe6819c",
-     "name": "MS Rezny Studio/Gallery",
-     "slug": "ms_rezny",
-     "address": "903 Manchester St, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/AAKjNANYPRH2",
-     "createdAt": "2018-04-29T01:08:28.924Z",
-     "updatedAt": "2018-04-29T01:08:28.924Z"
-   },
+	{
+		"id": "f1c12100-0479-11e8-808e-07b6d0fe568b",
+		"name": "Cosmic Charlie's",
+		"slug": "cosmic",
+		"address": "723 National Ave, Lexington, KY 40502",
+		"g_map_link": "https://goo.gl/maps/DRBPSQwjpYu",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "8972deb8-983a-4573-868d-122593a8ecc0",
+		"name": "Francisco's Farm Art Fair",
+		"slug": "francisco_farm",
+		"address": "512 E Stephens St, Midway, KY 40347",
+		"g_map_link": "https://goo.gl/maps/sBMznQCqzLn",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "fca780f0-0479-11e8-808e-07b6d0fe568b",
+		"name": "Best Friend Bar",
+		"slug": "best_friend",
+		"address": "500 Euclid Ave, Lexington, KY 40502",
+		"g_map_link": "https://goo.gl/maps/1A6vVwVXE432",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "0d63ddd0-047a-11e8-808e-07b6d0fe568b",
+		"name": "Whiskey Bear",
+		"slug": "whiskey_bear",
+		"address": "119 Marion, Suite 170, Lexington, Kentucky",
+		"g_map_link": "https://goo.gl/maps/7qSyqTGRyZU2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "181af060-047a-11e8-808e-07b6d0fe568b",
+		"name": "21C Lexington",
+		"slug": "21c_lex",
+		"address": "167 W Main St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/y53p9xLcNcU2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "22716c60-047a-11e8-808e-07b6d0fe568b",
+		"name": "Lexington Art League",
+		"slug": "lal",
+		"address": "209 Castlewood Dr, Lexington, Kentucky 40505",
+		"g_map_link": "https://goo.gl/maps/PmtR8kAQPRM2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "29d471f0-047a-11e8-808e-07b6d0fe568b",
+		"name": "Singletary Center for the Arts",
+		"slug": "singletary",
+		"address": "405 Rose St, Lexington, Kentucky 40506",
+		"g_map_link": "https://goo.gl/maps/uLQTd23sBsu",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "30c331e0-047a-11e8-808e-07b6d0fe568b",
+		"name": "The Green Lantern Bar",
+		"slug": "green_lantern",
+		"address": "497 W 3rd St, Lexington, Kentucky 40508",
+		"g_map_link": "https://goo.gl/maps/7qVeS821NtR2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "446e9860-047a-11e8-808e-07b6d0fe568b",
+		"name": "Farish Theater",
+		"slug": "farrish",
+		"address": "140 E Main St, Lexington, Kentucky 40507",
+		"g_map_link": "https://goo.gl/maps/ewNPYZsX95L2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "4a06a1f0-047a-11e8-808e-07b6d0fe568b",
+		"name": "Brier Books",
+		"slug": "brier_books",
+		"address": "319 S Ashland Ave, Lexington, KY 40502",
+		"g_map_link": "https://goo.gl/maps/ebYWdVHj27H2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "7269e5c5-9e36-41e1-8e65-a9a1d5211451",
+		"name": "Willie's Locally Known",
+		"slug": "willies",
+		"address": "286 Southland Dr, Lexington, KY 40503",
+		"g_map_link": "https://goo.gl/maps/JrkeNyaaVny",
+		"createdAt": "2018-04-01T01:08:28.924Z",
+		"updatedAt": "2018-04-01T01:08:28.924Z"
+	},
+	{
+		"id": "f0f86bb1-ff18-4ff4-86fa-20426c10b2a3",
+		"name": "BCTC Cooper Campus - RM 230",
+		"slug": "rm_230",
+		"address": "470 Cooper Dr, Lexington, KY 40506",
+		"g_map_link": "https://goo.gl/maps/cpSL9XwopLC2",
+		"createdAt": "2018-04-01T01:08:28.924Z",
+		"updatedAt": "2018-04-01T01:08:28.924Z"
+	},
+	{
+		"id": "edfd1bc5-f78a-4f5c-ac5f-b2892b7207a4",
+		"name": "Carnegie Center for Literacy & Learning",
+		"slug": "carnegie",
+		"address": "251 West Second St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/FrnrPXZ8x6F2",
+		"createdAt": "2018-04-01T01:08:28.924Z",
+		"updatedAt": "2018-04-01T01:08:28.924Z"
+	},
+	{
+		"id": "4f5c7260-047a-11e8-808e-07b6d0fe568b",
+		"name": "Lyric Theatre & Cultural Arts Center",
+		"slug": "lyric_theater",
+		"address": "300 E Third St, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/onMCXLbESuq",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "54348750-047a-11e8-808e-07b6d0fe568b",
+		"name": "Morlan Gallery",
+		"slug": "morland",
+		"address": "300 N Broadway, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/sCZ4P8bUkNw",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "e21ac481-9a9c-40bb-a3b8-43f3cbe6819c",
+		"name": "MS Rezny Studio/Gallery",
+		"slug": "ms_rezny",
+		"address": "903 Manchester St, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/AAKjNANYPRH2",
+		"createdAt": "2018-04-29T01:08:28.924Z",
+		"updatedAt": "2018-04-29T01:08:28.924Z"
+	},
 
-   {
-     "id": "34348750-047a-11e8-808e-07b6d0fe568b",
-     "name": "The Lexington Center",
-     "slug": "lexcenter",
-     "address": "430 W Vine St, Lexington, KY 40507",
-     "g_map_link": "https://goo.gl/maps/xPRe8nzEdEK2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "bc6852cc-7730-402e-a343-72c3bfb1e61a",
-     "name": "Pivot Brewing",
-     "slug": "pivot",
-     "address": "1400 Delaware Ave, Lexington, KY 40505",
-     "g_map_link": "https://goo.gl/maps/XBATzcDxLro",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "babb8118-ad90-4cbb-aeaa-361ace35d479",
-     "name": "The Plantory",
-     "slug": "plantory",
-     "address": "501 W 6th St Suite 250, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/8S81XyKx57C2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "197d2c60-6b9a-412f-9cfc-468e25a5c9cc",
-     "name": "The Parachute Factory",
-     "slug": "theparachutefactory",
-     "address": "720 Bryan Ave. Lexington KY",
-     "g_map_link": "https://goo.gl/maps/3BFZuB9ffa92",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "89cd986b-382b-4bf3-95b4-9b2e42db335b",
-     "name": "UK Art Museum",
-     "slug": "ukartmueum",
-     "address": "405 Rose St, Lexington, Kentucky 40506",
-     "g_map_link": "https://goo.gl/maps/TCbc2LGVAZL2",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id": "abcd62e9-4d20-4567-bb12-3c64d706a302",
-     "name": "The Bar Complex",
-     "slug": "barcomplex",
-     "address": "224 E Main St, Lexington, KY 40507",
-     "g_map_link": "https://goo.gl/maps/BUBan3eZvtR2",
-     "createdAt": "2018-06-23T01:08:28.924Z",
-     "updatedAt": "2018-06-23T01:08:28.924Z"
-   },
-   {
-      "id":"e985a0b3-04a1-4f41-b04a-db2cce5f84c9",
-      "name":"Marjorie Guyon: Art Projects",
-      "slug": "marjorie_guyon",
-      "address":"122 North Upper Street, Lexington, KY 40507",
-      "google_maps_link":"https://goo.gl/maps/2vJN3t6Gpj92",
-   },
-   {
-     "id": "9d4df28f-78bc-4328-afa0-cb7064e276a6",
-     "name": "West Sixth Brewing",
-     "slug": "west_sixth_brewing",
-     "address": "610 W 3rd St, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/zAKHh7iaC1w",
-     "createdAt": "2018-04-23T01:08:28.924Z",
-     "updatedAt": "2018-04-23T01:08:28.924Z"
-   },
-   {
-     "id": "4ed99967-5e9d-490a-8174-0289a5acb330",
-     "name": "Blue Stallion Brewing Co.",
-     "slug": "blue_stallion",
-     "address": "501 W 6th St #100, Lexington, KY 40508",
-     "g_map_link": "https://goo.gl/maps/FXySNa1V6CK2",
-     "createdAt": "2018-04-23T01:08:28.924Z",
-     "updatedAt": "2018-04-23T01:08:28.924Z"
-   },
+	{
+		"id": "34348750-047a-11e8-808e-07b6d0fe568b",
+		"name": "The Lexington Center",
+		"slug": "lexcenter",
+		"address": "430 W Vine St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/xPRe8nzEdEK2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "bc6852cc-7730-402e-a343-72c3bfb1e61a",
+		"name": "Pivot Brewing",
+		"slug": "pivot",
+		"address": "1400 Delaware Ave, Lexington, KY 40505",
+		"g_map_link": "https://goo.gl/maps/XBATzcDxLro",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "babb8118-ad90-4cbb-aeaa-361ace35d479",
+		"name": "The Plantory",
+		"slug": "plantory",
+		"address": "501 W 6th St Suite 250, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/8S81XyKx57C2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "197d2c60-6b9a-412f-9cfc-468e25a5c9cc",
+		"name": "The Parachute Factory",
+		"slug": "theparachutefactory",
+		"address": "720 Bryan Ave. Lexington KY",
+		"g_map_link": "https://goo.gl/maps/3BFZuB9ffa92",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "89cd986b-382b-4bf3-95b4-9b2e42db335b",
+		"name": "UK Art Museum",
+		"slug": "ukartmueum",
+		"address": "405 Rose St, Lexington, Kentucky 40506",
+		"g_map_link": "https://goo.gl/maps/TCbc2LGVAZL2",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "abcd62e9-4d20-4567-bb12-3c64d706a302",
+		"name": "The Bar Complex",
+		"slug": "barcomplex",
+		"address": "224 E Main St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/BUBan3eZvtR2",
+		"createdAt": "2018-06-23T01:08:28.924Z",
+		"updatedAt": "2018-06-23T01:08:28.924Z"
+	},
+	{
+		"id": "e985a0b3-04a1-4f41-b04a-db2cce5f84c9",
+		"name": "Marjorie Guyon: Art Projects",
+		"slug": "marjorie_guyon",
+		"address": "122 North Upper Street, Lexington, KY 40507",
+		"google_maps_link": "https://goo.gl/maps/2vJN3t6Gpj92"
+	},
+	{
+		"id": "9d4df28f-78bc-4328-afa0-cb7064e276a6",
+		"name": "West Sixth Brewing",
+		"slug": "west_sixth_brewing",
+		"address": "610 W 3rd St, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/zAKHh7iaC1w",
+		"createdAt": "2018-04-23T01:08:28.924Z",
+		"updatedAt": "2018-04-23T01:08:28.924Z"
+	},
+	{
+		"id": "4ed99967-5e9d-490a-8174-0289a5acb330",
+		"name": "Blue Stallion Brewing Co.",
+		"slug": "blue_stallion",
+		"address": "501 W 6th St #100, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/FXySNa1V6CK2",
+		"createdAt": "2018-04-23T01:08:28.924Z",
+		"updatedAt": "2018-04-23T01:08:28.924Z"
+	},
 
-   {
-     "id": "4bf24a00-4739-4efc-9b35-07e3d6a1629a",
-     "name": "Kentucky for Kentucky",
-     "slug": "kentuckyforkentucky",
-     "address": "720 Bryan Ave, Lexington, KY 40505",
-     "g_map_link": "https://goo.gl/maps/XspXNU4Pyiv",
-     "createdAt": "2018-03-23T01:08:28.924Z",
-     "updatedAt": "2018-03-23T01:08:28.924Z"
-   },
-   {
-     "id":"8139b81b-e8ba-4e5a-a4da-7a8baa3fc7a8",
-     "name":"Heike Pickett Gallery and Sculpture Garden",
-     "g_map_link":"https://goo.gl/maps/nsSnSWzW82N2",
-     "address":"110 Morgan Street, Versailles, KY 40383",
-     "createdAt": "2018-04-06T01:08:28.924Z",
-     "updatedAt": "2018-04-06T01:08:28.924Z"
-   },
-   {
-     "id":"82e54963-3293-467d-94a5-a6a880b1cbe8",
-     "name":"Visit LEX",
-     "g_map_link":"https://goo.gl/maps/5SYUB3uukJA2",
-     "address":"401 W Main St, Lexington, KY 40507",
-     "createdAt": "2018-05-01T01:08:28.924Z",
-     "updatedAt": "2018-05-01T01:08:28.924Z"
-   },
-   {
-     "id":"4af4fdd0-bff5-4b41-9634-ca537a0e94a2",
-     "name":"Rock House Brewing",
-     "g_map_link":"https://goo.gl/maps/yPox1KFNdfm",
-     "address":"119 Luigart Ct, Lexington, KY 40508",
-     "createdAt": "2018-05-01T01:08:28.924Z",
-     "updatedAt": "2018-05-01T01:08:28.924Z"
-   },
-   {
-     "id":"637de4f0-d3c3-403a-b57a-8975e242763c",
-     "name":"The Galleries at Georgetown College",
-     "g_map_link":"https://goo.gl/maps/xpSh1D4UKL62",
-     "address":"400 E College St, Georgetown, KY 40324",
-     "createdAt": "2018-04-06T01:08:28.924Z",
-     "updatedAt": "2018-04-06T01:08:28.924Z"
-   },
-   {
-     "id":"709f758f-c57c-4b1b-9618-ac4dd34eed62",
-     "name":"Heike Pickett Gallery at CMW",
-     "g_map_link":"https://goo.gl/maps/LNo21EvgcqF2",
-     "address":"400 E. Vine Street, Lexington, KY 40507",
-     "createdAt": "2018-04-06T01:08:28.924Z",
-     "updatedAt": "2018-04-06T01:08:28.924Z"
-   },
-   {
-     "id":"e9efc5bd-64bc-4f0a-bb2b-5e304cb40290",
-     "name":"William T. Young Library Auditorium",
-     "g_map_link":"https://goo.gl/maps/hZdEpQyES692",
-     "address":"401 Hilltop Ave, Lexington, KY 40506",
-     "createdAt": "2018-04-06T01:08:28.924Z",
-     "updatedAt": "2018-04-06T01:08:28.924Z"
-   },
-   {
-     "id":"28eed072-7ef6-4726-b3a4-bc7bbe0ee3a1",
-     "name":"Pam Miller Downtown Arts Center",
-     "g_map_link":"https://goo.gl/maps/qAzN13Ub5iA2",
-     "address":"141 E Main St, Lexington, KY 40507",
-     "createdAt": "2018-04-06T01:08:28.924Z",
-     "updatedAt": "2018-04-06T01:08:28.924Z"
-   }
+	{
+		"id": "4bf24a00-4739-4efc-9b35-07e3d6a1629a",
+		"name": "Kentucky for Kentucky",
+		"slug": "kentuckyforkentucky",
+		"address": "720 Bryan Ave, Lexington, KY 40505",
+		"g_map_link": "https://goo.gl/maps/XspXNU4Pyiv",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+	{
+		"id": "8139b81b-e8ba-4e5a-a4da-7a8baa3fc7a8",
+		"name": "Heike Pickett Gallery and Sculpture Garden",
+		"g_map_link": "https://goo.gl/maps/nsSnSWzW82N2",
+		"address": "110 Morgan Street, Versailles, KY 40383",
+		"createdAt": "2018-04-06T01:08:28.924Z",
+		"updatedAt": "2018-04-06T01:08:28.924Z"
+	},
+	{
+		"id": "82e54963-3293-467d-94a5-a6a880b1cbe8",
+		"name": "Visit LEX",
+		"g_map_link": "https://goo.gl/maps/5SYUB3uukJA2",
+		"address": "401 W Main St, Lexington, KY 40507",
+		"createdAt": "2018-05-01T01:08:28.924Z",
+		"updatedAt": "2018-05-01T01:08:28.924Z"
+	},
+	{
+		"id": "4af4fdd0-bff5-4b41-9634-ca537a0e94a2",
+		"name": "Rock House Brewing",
+		"g_map_link": "https://goo.gl/maps/yPox1KFNdfm",
+		"address": "119 Luigart Ct, Lexington, KY 40508",
+		"createdAt": "2018-05-01T01:08:28.924Z",
+		"updatedAt": "2018-05-01T01:08:28.924Z"
+	},
+	{
+		"id": "637de4f0-d3c3-403a-b57a-8975e242763c",
+		"name": "The Galleries at Georgetown College",
+		"g_map_link": "https://goo.gl/maps/xpSh1D4UKL62",
+		"address": "400 E College St, Georgetown, KY 40324",
+		"createdAt": "2018-04-06T01:08:28.924Z",
+		"updatedAt": "2018-04-06T01:08:28.924Z"
+	},
+	{
+		"id": "709f758f-c57c-4b1b-9618-ac4dd34eed62",
+		"name": "Heike Pickett Gallery at CMW",
+		"g_map_link": "https://goo.gl/maps/LNo21EvgcqF2",
+		"address": "400 E. Vine Street, Lexington, KY 40507",
+		"createdAt": "2018-04-06T01:08:28.924Z",
+		"updatedAt": "2018-04-06T01:08:28.924Z"
+	},
+	{
+		"id": "e9efc5bd-64bc-4f0a-bb2b-5e304cb40290",
+		"name": "William T. Young Library Auditorium",
+		"g_map_link": "https://goo.gl/maps/hZdEpQyES692",
+		"address": "401 Hilltop Ave, Lexington, KY 40506",
+		"createdAt": "2018-04-06T01:08:28.924Z",
+		"updatedAt": "2018-04-06T01:08:28.924Z"
+	},
+	{
+		"id": "28eed072-7ef6-4726-b3a4-bc7bbe0ee3a1",
+		"name": "Pam Miller Downtown Arts Center",
+		"g_map_link": "https://goo.gl/maps/qAzN13Ub5iA2",
+		"address": "141 E Main St, Lexington, KY 40507",
+		"createdAt": "2018-04-06T01:08:28.924Z",
+		"updatedAt": "2018-04-06T01:08:28.924Z"
+	}
 ]
