@@ -271,6 +271,15 @@
 		"createdAt": "2018-03-23T01:08:28.924Z",
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
+  {
+		"id": "4a9416d1-abad-487a-973c-8fde5ec2e42f",
+		"name": "MoonDance Amphitheater",
+		"slug": "moondance",
+		"address": "1152 Monarch St, Lexington, Kentucky 40513",
+		"g_map_link": "https://goo.gl/maps/DtvBEdo8m4v",
+		"createdAt": "2018-08-23T01:08:28.924Z",
+		"updatedAt": "2018-08-23T01:08:28.924Z"
+	},
 	{
 		"id": "abcd62e9-4d20-4567-bb12-3c64d706a302",
 		"name": "The Bar Complex",
