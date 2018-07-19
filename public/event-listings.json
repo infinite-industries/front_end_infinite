@@ -195,34 +195,6 @@
          "tags":["not-yet-implemented"]
        },
 
-       {
-              "id":"d7f65bc9-1eaa-4f80-9096-65d922f889af",
-              "title":"Family Day Sculpture Workshop",
-              "type" :"calendar_event",
-              "slug":"family-day-sculpture-workshop",
-              "when_date":"Saturday, July 21st, 2018",
-              "when_time":"12:00pm - 1:00pm",
-              "time_start":"2018-07-21 12:00:00",
-              "time_end": "2018-07-21 13:00:00",
-              "website_link": "none",
-              "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/d7f65bc9-1eaa-4f80-9096-65d922f889af.jpg",
-              "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/d7f65bc9-1eaa-4f80-9096-65d922f889af.jpg",
-              "venues":["UK Art Museum"],
-              "venue_id":"89cd986b-382b-4bf3-95b4-9b2e42db335b",
-              "admission_fee": "none",
-              "address": "405 Rose St, Lexington, Kentucky 40506",
-              "organizers":[""],
-              "map_link":"https://goo.gl/maps/TCbc2LGVAZL2",
-              "brief_description":"Join educator Jarah Jones of ARTplay Children's Studio for a sculpture workshop inspired by the Reuben Kadish: Witness exhibition on view. FREE. All ages welcome; materials provided",
-              "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Join educator Jarah Jones of ARTplay Children's Studio for a sculpture workshop inspired by the Reuben Kadish: Witness exhibition on view. FREE. All ages welcome; materials provided.</span></p>",
-              "links":["none"],
-              "ticket_link":"none",
-              "fb_event_link":"https://www.facebook.com/events/264664894117797/",
-              "eventbrite_link":"none",
-              "bitly_link":"http://bit.ly/2zNBiy1",
-              "tags":["not-yet-implemented"]
-            },
-
   {
          "id":"94fbfbce-9636-4d33-90f3-94c15539477e",
          "title":"Angels In America, Odwalla1221, DPCLB, & Robert Beatty",
