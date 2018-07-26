@@ -359,7 +359,7 @@
                       },
 
   {
-         "id":"c768f1cb-154e-4cd7-85b9-d1242edcb46b",
+         "id":"q768f1cb-154e-4cd7-85b9-d1252edcb46b",
          "title":"The 2018 Woodland Art Fair",
          "type" :"calendar_event",
          "slug":"the-2018-woodland-art-fair",
@@ -371,7 +371,7 @@
          "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/c768f1cb-154e-4cd7-85b9-d1242edcb46b.jpg",
          "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/c768f1cb-154e-4cd7-85b9-d1242edcb46b.jpg",
          "venues":["Woodland Park"],
-         "venue_id":"2abdeda0-cc7b-44a7-a54d-0142c4963f81",
+         "venue_id":"2abqeda0-cc7b-44a7-aa4d-0142c4963f81",
          "admission_fee": "none",
          "address": "601 E High St",
          "organizers":[""],
