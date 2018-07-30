@@ -53,6 +53,15 @@
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
 	{
+		"id": "597ba75c-4832-41ea-9106-01f6cfd5b88c",
+		"name": "Lexington Public Library (Central)",
+		"slug": "lex_library_central",
+		"address": "140 E Main St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/fcnsV7Mguvm",
+		"createdAt": "2018-08-29T01:08:28.924Z",
+		"updatedAt": "2018-08-29T01:08:28.924Z"
+	},
+	{
 		"id": "df4e289b-08ff-4561-97fc-4a227210486b",
 		"name": "Josephine Sculpture Park",
 		"slug": "josephine_sculpture_park",
