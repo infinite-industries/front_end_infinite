@@ -189,6 +189,7 @@
 		"createdAt": "2018-04-01T01:08:28.924Z",
 		"updatedAt": "2018-04-01T01:08:28.924Z"
 	},
+
 	{
 		"id": "f0f86bb1-ff18-4ff4-86fa-20426c10b2a3",
 		"name": "BCTC Cooper Campus - RM 230",
@@ -197,6 +198,16 @@
 		"g_map_link": "https://goo.gl/maps/cpSL9XwopLC2",
 		"createdAt": "2018-04-01T01:08:28.924Z",
 		"updatedAt": "2018-04-01T01:08:28.924Z"
+	},
+
+	{
+		"id": "313406e9-0cc1-4f40-835d-546a3848593a",
+		"name": "Cha Cha's",
+		"slug": "cha_chas",
+		"address": "527 S Upper St, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/CXBJkASpCZm",
+		"createdAt": "2018-08-01T01:08:28.924Z",
+		"updatedAt": "2018-08-01T01:08:28.924Z"
 	},
 	{
 		"id": "edfd1bc5-f78a-4f5c-ac5f-b2892b7207a4",

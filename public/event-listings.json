@@ -302,7 +302,33 @@
                    "tags":["not-yet-implemented"]
                  },
 
-
+                 {
+                        "id":"bc0df575-f8c9-40e5-ba8d-4ac963486d21",
+                        "title":"Love, Peace, and Hair Grease - a Creative Crossover Event",
+                        "type" :"calendar_event",
+                        "slug":"love,-peace,-and-hair-grease---a-creative-crossover-event",
+                        "when_date":"Tuesday, August 14th, 2018",
+                        "when_time":"6:45pm - 8:45pm",
+                        "time_start":"2018-08-14 18:45:00",
+                        "time_end": "2018-08-14 20:45:00",
+                        "website_link": "none",
+                        "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/bc0df575-f8c9-40e5-ba8d-4ac963486d21.jpg",
+                        "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/bc0df575-f8c9-40e5-ba8d-4ac963486d21.jpg",
+                        "venues":["Cha Cha's"],
+                        "venue_id":"313406e9-0cc1-4f40-835d-546a3848593a",
+                        "admission_fee": "none",
+                        "address": "527 S Upper St",
+                        "organizers":[""],
+                        "map_link":"https://goo.gl/maps/CXBJkASpCZm",
+                        "brief_description":"The Creative Crossover series, a partnership with Shift Lexington and LexUX, were we highlight local creatives that cross the strict divides of a typical job title.",
+                        "description":"<p><span style='background-color: transparent; color: rgb(0, 0, 0);'>Creativity reveals itself in many different ways; design, architecture, painting, music, entrepreneurship… to name a few. As a part of the Creative Crossover series, a partnership with Shift Lexington and LexUX, we highlight local creatives that cross the strict divides of a typical job title. This month, we are featuring Jason Glass, co-owner of Cha Cha’s and the Rooster’s Nest, a local salon and barber shop. Jason will share his wisdom and great stories with us inside their shop. Join us for a great conversation, drinks, snacks, and the opportunity to learn more about a Lexington gem. </span></p><p><br></p><p><br></p><p><strong style='background-color: transparent; color: rgb(0, 0, 0);'>Jason Bio</strong></p><p><br></p><p><span style='background-color: transparent; color: rgb(69, 69, 69);'>Jason Glass has been a colorist and hair stylist for over two decades. Originally from the Muscle Shoals area of Alabama he spent his younger years as a military brat - attending 11 different schools and visiting every continent but the North and South Pole. &nbsp;Jason, his wife Cha Cha, and their business partner Zac, opened their salon Cha Cha’s in 2008 and The Rooster’s Nest Barber Shop in 2013. Both shops have become a staple for locals and hair industry followers alike.</span></p><p><br></p><p><span style='background-color: transparent; color: rgb(69, 69, 69);'>He is an award winning salon owner, education director, &nbsp;product developer and stunt double.</span></p><p><br></p><p><span style='background-color: transparent; color: rgb(0, 0, 0);'> </span></p><p><strong style='background-color: transparent; color: rgb(0, 0, 0);'>What is the Creative Crossover series?</strong></p><p><br></p><p><span style='background-color: transparent; color: rgb(0, 0, 0);'>Creative Crossover is a quarterly event created by Shift Lexington and LexUX. Through these events, we highlight creative professionals that blur the lines of your standard job title and description with a variety of events. Any creative person knows that just because your job says you do this one thing, doesn’t mean, on a daily basis, you don’t touch many other areas and fields. Your knowledge is amazing and only experience and grit will get you there. You can look for a Creative Crossover event at least three times a year and you can count on our annual holiday event in December to celebrate the year’s accomplishments and cheer in the new goals. </span></p><p><br></p><p><span style='background-color: transparent; color: rgb(0, 0, 0);'>Past Creative Crossover events include, How Many Hats Do You Wear? a panel discussion, Design + Space, and of course, our Holiday Party. </span></p>",
+                        "links":["none"],
+                        "ticket_link":"https://www.eventbrite.com/e/love-peace-and-hair-grease-tickets-48435698478",
+                        "fb_event_link":"https://www.facebook.com/events/157007958303518/",
+                        "eventbrite_link":"https://www.eventbrite.com/e/love-peace-and-hair-grease-tickets-48435698478",
+                        "bitly_link":"http://bit.ly/2v3Mthp",
+                        "tags":["not-yet-implemented"]
+                      },
                  {
                         "id":"282003e5-d266-40a8-93a3-a1711e11061e",
                         "title":"Summer Nights in Suburbia- Ben Lacy",
