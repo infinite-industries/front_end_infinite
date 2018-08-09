@@ -1,33 +1,5 @@
 [
 
-
-            {
-                   "id":"c97eb5cd-e8ba-47a2-b224-472e882eebf0",
-                   "title":"Toke // Irata // Dirtbag at The Green Lantern",
-                   "type" :"calendar_event",
-                   "slug":"toke-irata-dirtbag-at-the-green-lantern",
-                   "when_date":"Wednesday, August 8th, 2018",
-                   "when_time":"8:00pm - 10:00pm",
-                   "time_start":"2018-08-08 20:00:00",
-                   "time_end": "2018-08-08 22:00:00",
-                   "website_link": "none",
-                   "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/c97eb5cd-e8ba-47a2-b224-472e882eebf0.jpg",
-                   "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/c97eb5cd-e8ba-47a2-b224-472e882eebf0.jpg",
-                   "venues":["The Green Lantern"],
-                   "venue_id":"30c331e0-047a-11e8-808e-07b6d0fe568b",
-                   "admission_fee": "$10.00",
-                   "address": "497 W 3rd St, Lexington, Kentucky 40508",
-                   "organizers":[""],
-                   "map_link":"https://goo.gl/maps/7qVeS821NtR2",
-                   "brief_description":" ",
-                   "description":"",
-                   "links":["none"],
-                   "ticket_link":"https://www.ticketfly.com/purchase/event/1715144",
-                   "fb_event_link":"none",
-                   "eventbrite_link":"none",
-                   "bitly_link":"http://bit.ly/2uflrCn",
-                   "tags":["not-yet-implemented"]
-                 },
                  {
                         "id":"e82f61d9-b3e9-4f7f-97f4-6a5b23438ac0",
                         "title":"Catawampus Universe (NIGHT ONE) at The Burl",
@@ -190,6 +162,34 @@
                              "bitly_link":"http://bit.ly/2KDO1n7",
                              "tags":["not-yet-implemented"]
                            },
+
+{
+       "id":"28c6bd13-e9ed-4c92-9047-fc10edd0777c",
+       "title":"Talena Sanders: New Movies",
+       "type" :"calendar_event",
+       "slug":"talena-sanders:-new-movies",
+       "when_date":"Sunday, August 12th, 2018",
+       "when_time":"7:00pm - 9:00pm",
+       "time_start":"2018-08-12 19:00:00",
+       "time_end": "2018-08-12 21:00:00",
+       "website_link": "none",
+       "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/28c6bd13-e9ed-4c92-9047-fc10edd0777c.jpg",
+       "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/28c6bd13-e9ed-4c92-9047-fc10edd0777c.jpg",
+       "venues":["21C Lexington"],
+       "venue_id":"181af060-047a-11e8-808e-07b6d0fe568b",
+       "admission_fee": "none",
+       "address": "167 W Main St, Lexington, KY 40507",
+       "organizers":[""],
+       "map_link":"https://goo.gl/maps/y53p9xLcNcU2",
+       "brief_description":"Talena Sanders returns to Lexington to show two new films",
+       "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Talena Sanders returns to Lexington to show two new films, 'Between my flesh and the world's fingers' and 'Reasonable Watchfulness.' Like her earlier films, they use the texture of hand-processed motion picture film to reflect on the experience of history, both social and personal. Sanders will attend the screening and do a Q&A after the show.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Between my flesh and the world's fingers (2018), 31.5 minutes.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>'Mary MacLane, the Wild Woman of Butte, Montana, published her diaries in 1902 and 1917. As an out queer and proto-feminist at the turn of the century, MacLane became notorious upon the publication of her 1902 diary, I Await the Devil’s Coming. She was whisked away from the industrial hellscape of her copper mining Montana hometown to a life in the public eye as an author, journalist, female film pioneer and always a provocateur - sending up social norms throughout her career, with a special focus on staid notions about women and sexuality.'</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>'Between my flesh and the world’s fingers is an experimental essay and diary film primarily based on her published diaries and her film work. Though the film is not directly a personal film, the production is founded in part in the act of a woman telling her own story through that of another woman, a trailblazing figure from the past.'</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Reasonable Watchfulness (2018) 8 minutes.</span></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>'Transitions while longing for other places and people, like a fox on the run.'</span></p>",
+       "links":["none"],
+       "ticket_link":"none",
+       "fb_event_link":"https://www.facebook.com/events/242684523031179/",
+       "eventbrite_link":"none",
+       "bitly_link":"http://bit.ly/2KKByxU",
+       "tags":["not-yet-implemented"]
+     },
                  {
                         "id":"bc0df575-f8c9-40e5-ba8d-4ac963486d21",
                         "title":"Love, Peace, and Hair Grease - a Creative Crossover Event",
