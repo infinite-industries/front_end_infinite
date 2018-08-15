@@ -26,6 +26,16 @@
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
 	{
+		"id": "db760596f-4ea6-486a-8f9f-e375981c8663",
+		"name": "Henry Clay Estate",
+		"slug": "henry_clay_estate",
+		"address": "120 Sycamore Rd, Lexington, KY 40502",
+		"g_map_link": "https://goo.gl/maps/D63rj364Eok",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+
+	{
 		"id": "8e136d93-36a0-4317-a6d8-91ac62a063a6",
 		"name": "Broomwagon",
 		"slug": "broomwagon",
