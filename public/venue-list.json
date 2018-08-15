@@ -301,6 +301,15 @@
 		"createdAt": "2018-03-23T01:08:28.924Z",
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
+	{
+		"id": "550afaa5-7998-4b6c-a74e-005ac84ea74e",
+		"name": "Student Center Cinema",
+		"slug": "uk_student_center",
+		"address": "160, Ave of Champions, Lexington 40508",
+		"g_map_link": "https://goo.gl/maps/Ux7PMPnUoGK2",
+		"createdAt": "2018-08-23T01:08:28.924Z",
+		"updatedAt": "2018-08-23T01:08:28.924Z"
+	},
   {
 		"id": "4a9416d1-abad-487a-973c-8fde5ec2e42f",
 		"name": "MoonDance Amphitheater",
