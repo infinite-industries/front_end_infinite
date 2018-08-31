@@ -394,6 +394,7 @@
 	{
        "id":"93f775ea-47f2-4aa6-a9e6-e7f952e138a6",
        "title":"The League: Members Exhibition Opening Reception",
+			 "type": "calendar_event",
        "slug":"the-league:-members-exhibition-opening-reception",
        "when_date":"Friday, September 14th, 2018",
        "when_time":"6:00am - 9:00am",
