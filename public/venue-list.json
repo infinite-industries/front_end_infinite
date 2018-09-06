@@ -16,6 +16,27 @@
 		"createdAt": "2018-03-23T01:08:28.924Z",
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
+
+	{
+		"id": "48179693-a01b-4fb2-a31b-cf6581d9d320",
+		"name": "Lucille Caudill Little Fine Arts Library",
+		"slug": "lucille_c_l_library",
+		"address": "160 Patterson Dr, Lexington, KY 40506",
+		"g_map_link": "https://goo.gl/maps/JJVruc2sxmA2",
+		"createdAt": "2018-09-23T01:08:28.924Z",
+		"updatedAt": "2018-09-23T01:08:28.924Z"
+	},
+
+	{
+		"id": "2c7ae750-f193-4b5f-9893-fa9d56c647ba",
+		"name": "The Living Arts & Science Center",
+		"slug": "living_arts_and_science",
+		"address": "362 N Martin Luther King Blvd, Lexington KY 40508",
+		"g_map_link": "https://goo.gl/maps/fxxWBTy6ZPx",
+		"createdAt": "2018-09-23T01:08:28.924Z",
+		"updatedAt": "2018-09-23T01:08:28.924Z"
+	},
+
 	{
 		"id": "d9107b10-0479-11e8-808e-07b6d0fe568b",
 		"name": "The Burl",
@@ -234,9 +255,19 @@
 		"slug": "lyric_theater",
 		"address": "300 E Third St, Lexington, KY 40508",
 		"g_map_link": "https://goo.gl/maps/onMCXLbESuq",
-		"createdAt": "2018-03-23T01:08:28.924Z",
-		"updatedAt": "2018-03-23T01:08:28.924Z"
+		"createdAt": "2018-09-23T01:08:28.924Z",
+		"updatedAt": "2018-09-23T01:08:28.924Z"
 	},
+	{
+		"id": "8f5c7260-047a-11e8-908e-07b6d0fe598a",
+		"name": "The Gatton Student Center Cinema",
+		"slug": "gatton_center_cinema",
+		"address": "University of Kentucky, 160, Ave of Champions, Lexington 40508",
+		"g_map_link": "https://goo.gl/maps/fSmtAFWRzNz",
+		"createdAt": "2018-09-23T01:08:28.924Z",
+		"updatedAt": "2018-09-23T01:08:28.924Z"
+	},
+
 	{
 		"id": "54348750-047a-11e8-808e-07b6d0fe568b",
 		"name": "Morlan Gallery",
