@@ -335,6 +335,18 @@
 	},
 
 	{
+		"id": "5440a37a-e64d-46ef-be73-2180ac4896a0",
+		"name": "Bar Ona",
+		"slug": "bar_ona",
+		"address": "108 Church St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/2UiB5Ak1c6x",
+		"createdAt": "2018-10-23T01:08:28.924Z",
+		"updatedAt": "2018-10-23T01:08:28.924Z"
+	},
+
+
+
+	{
 		"id": "dfef2ffe-0eed-4049-af94-cabf46852417",
 		"name": "The James Eads How Memorial Cinema",
 		"slug": "james_eads",
