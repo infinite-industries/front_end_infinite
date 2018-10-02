@@ -6,5 +6,6 @@ notes.local
 .DS_Store
 prep.txt
 public/js/*
+src/clientConfig.js
 !.gitkeep
 .idea
