@@ -169,13 +169,24 @@
 	},
 	{
 		"id": "181af060-047a-11e8-808e-07b6d0fe568b",
-		"name": "21C Lexington",
+		"name": "21c Lexington",
 		"slug": "21c_lex",
 		"address": "167 W Main St, Lexington, KY 40507",
 		"g_map_link": "https://goo.gl/maps/y53p9xLcNcU2",
 		"createdAt": "2018-03-23T01:08:28.924Z",
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
+
+	{
+		"id": "f60395de-cb7b-4bf9-bf0b-2fd65537f0ff",
+		"name": "UK Bolivar Art Building",
+		"slug": "uk_bolivar_art_building",
+		"address": "236 Bolivar St, Lexington, KY 40508",
+		"g_map_link": "https://goo.gl/maps/EkA2BBGyeyz",
+		"createdAt": "2018-03-23T01:08:28.924Z",
+		"updatedAt": "2018-03-23T01:08:28.924Z"
+	},
+
 	{
 		"id": "22716c60-047a-11e8-808e-07b6d0fe568b",
 		"name": "Lexington Art League",
