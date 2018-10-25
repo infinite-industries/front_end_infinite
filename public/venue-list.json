@@ -85,6 +85,15 @@
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
 	{
+		"id": "d4622b69-b6b3-4f50-b389-377901434bb6",
+		"name": "105 W Louden",
+		"slug": "105_louden",
+		"address": "105 W Loudon Ave, Lexington, KY 40508-1411",
+		"g_map_link": "https://goo.gl/maps/k93t7ofU9jB2",
+		"createdAt": "2018-10-23T01:10:28.924Z",
+		"updatedAt": "2018-10-23T01:10:28.924Z"
+	},
+	{
 		"id": "63849494-a77f-4744-ab47-1c9963267513",
 		"name": "Al's Bar",
 		"slug": "als_bar",
