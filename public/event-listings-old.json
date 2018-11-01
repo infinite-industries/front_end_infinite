@@ -1,6 +1,34 @@
 [
 
   {
+         "id":"130706b3-ec19-4a0d-92fd-b507a32d108b",
+         "title":"Street Sects / Decide Today / Bedroom Wounds / ELEW / Whammmoth",
+         "slug":"street-sects-decide-today-bedroom-wounds-elew-whammmoth",
+         "type": "calendar_event",
+         "when_date":"Tuesday, October 30th, 2018",
+         "when_time":"10:00pm - 11:59pm",
+         "time_start":"2018-10-30 22:00:00",
+         "time_end": "2018-10-30 23:59:00",
+         "website_link": "none",
+         "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/130706b3-ec19-4a0d-92fd-b507a32d108b.jpg",
+         "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/130706b3-ec19-4a0d-92fd-b507a32d108b.jpg",
+         "venues":["The Green Lantern Bar"],
+         "venue_id":"30c331e0-047a-11e8-808e-07b6d0fe568b",
+         "admission_fee": "$10.00",
+         "address": "497 W 3rd St, Lexington, Kentucky 40508",
+         "organizers":[""],
+         "map_link":"https://goo.gl/maps/7qVeS821NtR2",
+         "brief_description":" ",
+         "description":"<p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Street Sects (Austin, TX)</span></p><p><a href='https://streetsects.bandcamp.com/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>https://streetsects.bandcamp.com</a></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Decide Today (Cincinnati, OH)</span></p><p><a href='https://decidetoday.bandcamp.com/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>https://decidetoday.bandcamp.com</a></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Bedroom Wounds (Louisville, KY)</span></p><p><a href='https://bedroomwounds.bandcamp.com/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>https://bedroomwounds.bandcamp.com</a></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Everyone Lives Everyone Wins (Lexington, KY)</span></p><p><a href='https://everyoneliveseveryonewins.bandcamp.com/' target='_blank' style='background-color: rgb(255, 255, 255); color: rgb(54, 88, 153);'>https://everyoneliveseveryonewins.bandcamp.com</a></p><p><br></p><p><span style='background-color: rgb(255, 255, 255); color: rgb(29, 33, 41);'>Whammmoth (Lexington, KY)</span></p>",
+         "links":["none"],
+         "ticket_link":"https://www.etix.com/ticket/p/7067116/street-sects-lexington-the-green-lantern-bar",
+         "fb_event_link":"https://www.facebook.com/events/292505114894716/",
+         "eventbrite_link":"none",
+         "bitly_link":"http://bit.ly/2RUl8rA",
+         "tags":["not-yet-implemented"]
+       },
+
+  {
          "id":"3eef4d7a-5d22-42aa-9199-5f172a533a42",
          "title":"A screening of Robert Penn Warren: A Vision",
          "type": "calendar_event",

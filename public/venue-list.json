@@ -84,6 +84,17 @@
 		"createdAt": "2018-03-23T01:08:28.924Z",
 		"updatedAt": "2018-03-23T01:08:28.924Z"
 	},
+
+	{
+		"id": "d9ecdc6d-1e03-468a-b2ee-622635c0e658",
+		"name": "The Night Market",
+		"slug": "night_market",
+		"address": "700 Bryan Ave, Lexington, Kentucky 40508",
+		"g_map_link": "https://goo.gl/maps/sWXpcbvH56o",
+		"createdAt": "2018-11-23T01:08:28.924Z",
+		"updatedAt": "2018-11-23T01:08:28.924Z"
+	},
+
 	{
 		"id": "d4622b69-b6b3-4f50-b389-377901434bb6",
 		"name": "105 W Louden",
@@ -288,6 +299,17 @@
 		"createdAt": "2018-09-23T01:08:28.924Z",
 		"updatedAt": "2018-09-23T01:08:28.924Z"
 	},
+
+	{
+		"id": "dc923453-097e-4381-83b8-f7270fc4eb8a",
+		"name": "Gatton College of Business and Economic",
+		"slug": "gatton-college",
+		"address": "550 S Limestone, Lexington, KY 40506",
+		"g_map_link": "https://goo.gl/maps/YyjiMJ3iF3u",
+		"createdAt": "2018-09-23T01:08:28.924Z",
+		"updatedAt": "2018-09-23T01:08:28.924Z"
+	},
+
 	{
 		"id": "8f5c7260-047a-11e8-908e-07b6d0fe598a",
 		"name": "The Gatton Student Center Cinema",
