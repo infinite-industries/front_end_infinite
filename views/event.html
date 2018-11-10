@@ -257,8 +257,8 @@
             window.location = `/calendar?title=${encodeURIComponent(title)}&description=${encodeURIComponent(desc)}&location=${encodeURIComponent(location)}&time_start=${encodeURIComponent(time_start)}&time_end=${encodeURIComponent(time_end)}`;
           } else { // google cal
             InfiniteAnalytics("{{id}}", "calendar_add", "Google Calendar", "{{site_url}}");
-            const time_start_formatted = moment(time_start).format('YYYYMMDDTHHmmss');
-            const time_end_formatted = moment(time_end).format('YYYYMMDDTHHmmss');
+            const time_start_formatted = moment(time_start).utc().format('YYYYMMDDTHHmmss');
+            const time_end_formatted = moment(time_end).utc().format('YYYYMMDDTHHmmss');
             window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${encodeURIComponent(time_start_formatted)}/${encodeURIComponent(time_end_formatted)}&details=${encodeURIComponent(desc)}&location=${encodeURIComponent(location)}`);
           }
         }

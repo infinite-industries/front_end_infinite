@@ -43,7 +43,7 @@ app.get('/event-listings', function(req, res){
 })
 
 app.get("/event/:id", function(req, res){
-    console.log("got it");
+
     var self = this;
     axios.get(process.env.SITE_URL+'/event-listings.json')
     .then(function (response) {
