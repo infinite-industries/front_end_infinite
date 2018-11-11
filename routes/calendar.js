@@ -25,8 +25,8 @@ BEGIN:VEVENT
 UID:${uuidv4()}
 SUMMARY:${req.query.title}
 DTSTAMP:${moment().utc().format('YYYYMMDDTHHmmss')}Z
-DTSTART:${moment.tz(req.query.time_start, "America/New_York").format('YYYYMMDDTHHmmss')}Z
-DTEND:${moment.tz(req.query.time_end, "America/New_York").format('YYYYMMDDTHHmmss')}Z
+DTSTART:${moment.tz(req.query.time_start, "America/New_York").utc().format('YYYYMMDDTHHmmss')}Z
+DTEND:${moment.tz(req.query.time_end, "America/New_York").utc().format('YYYYMMDDTHHmmss')}Z
 DESCRIPTION:${req.query.description}
 LOCATION:${req.query.location}
 END:VEVENT
