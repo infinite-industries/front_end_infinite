@@ -3,7 +3,7 @@ const router = express.Router()
 const bodyParser = require('body-parser')
 //const ics = require('ics')
 const uuidv4 = require('uuid/v4')
-const moment = require('moment')
+const moment = require('moment-timezone')
 
 router.use(bodyParser.urlencoded({
     extended: true
@@ -25,8 +25,8 @@ BEGIN:VEVENT
 UID:${uuidv4()}
 SUMMARY:${req.query.title}
 DTSTAMP:${moment().utc().format('YYYYMMDDTHHmmss')}Z
-DTSTART:${moment(req.query.time_start).format('YYYYMMDDTHHmmss')}
-DTEND:${moment(req.query.time_end).format('YYYYMMDDTHHmmss')}
+DTSTART:${moment.tz(req.query.time_start, "America/New_York").format('YYYYMMDDTHHmmss')}
+DTEND:${moment.tz(req.query.time_end, "America/New_York").format('YYYYMMDDTHHmmss')}
 DESCRIPTION:${req.query.description}
 LOCATION:${req.query.location}
 END:VEVENT
