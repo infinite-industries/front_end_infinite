@@ -27,35 +27,6 @@
 	       "tags":["not-yet-implemented"]
 	     },
 
-
-	{
-	       "id":"8971dd4f-5282-4d13-9f31-4c36f9f4eded",
-	       "title":"Artist's Talk with Tiffany Calvert",
-	       "type": "calendar_event",
-	       "slug":"artists-talk-with-tiffany-calvert",
-	       "when_date":"Thursday, November 15th, 2018",
-	       "when_time":"6:00pm - 7:00pm",
-	       "time_start":"2018-11-15 18:00:00",
-	       "time_end": "2018-11-15 19:00:00",
-	       "website_link": "http://www.transy.edu/about/morlan/exhibitions",
-	       "image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/8971dd4f-5282-4d13-9f31-4c36f9f4eded.jpg",
-	       "social_image":"https://s3-us-west-2.amazonaws.com/infinite-industries-event-images/uploads/8971dd4f-5282-4d13-9f31-4c36f9f4eded.jpg",
-	       "venues":["Morlan Gallery"],
-	       "venue_id":"54348750-047a-11e8-808e-07b6d0fe568b",
-	       "admission_fee": "Free",
-	       "address": "300 N Broadway, Lexington, KY 40508",
-	       "organizers":[""],
-	       "map_link":"https://goo.gl/maps/sCZ4P8bUkNw",
-	       "brief_description":"Painter Tiffany Calvert discusses her work in Morlan Gallery's Something Pretty exhibition.",
-	       "description":"<h2><strong style='color: rgb(240, 102, 102);'><em>Something Pretty</em></strong></h2><p>October 29 – December 4, 2018</p><p><a href='http://www.tiffanycalvert.com/' target='_blank'>&nbsp;</a></p><p><a href='http://www.tiffanycalvert.com/' target='_blank'><strong>Tiffany Calvert</strong></a><strong>, Angela Dufresne, Justin Favela, Stephen Rolfe Powell, and&nbsp;HuiMeng Wang</strong></p><p>&nbsp;</p><p><span style='background-color: transparent;'>Lexington Gallery Hop Reception for the Artists&nbsp;| Friday, November 16,&nbsp;5 - 8 p.m.</span></p><p><br></p><p>As an adjective, pretty has many connotations. To be pretty is to be aesthetically pleasing, sensorially charming, and relatively beautiful. Yet the relative nature of that beauty also often renders things that are “pretty” as&nbsp;diminutive, decorative, and vapid. Yet even with this dismissal, we, as human beings, are invariably drawn to things that are pretty, and their aesthetic pleasure has the capacity to carry with it a further exploration of many theoretical, political, and practical issues. This exhibition seeks to complicate the notion of “pretty” by bringing together artists whose work engages with the aesthetics of prettiness, yet undercuts the diminutive and dismissive connotations of the label. This exhibition curated by Transylvania University assistant professor of art history, Emily Elizabeth Goodman, Ph.D.</p><p><br></p><p><strong style='background-color: transparent;'>Special Events and Hours</strong></p><p>Curator’s Talk with Emily Goodman | Thursday, Nov. 8, 6 p.m.</p><p>Artist Talk with Tiffany Calvert | Thursday, Nov. 15, 6 p.m.</p><p>Lexington Gallery Hop and Reception for the Artists | Friday, Nov. 16, 5-8 p.m.</p><p>Weekend Hours | Sunday, Nov. 11, 2-3 p.m. and Sunday, Dec. 2, 2-3 p.m.</p><p>Closed November 20-23 for Thanksgiving</p>",
-	       "links":["none"],
-	       "ticket_link":"none",
-	       "fb_event_link":"https://www.facebook.com/events/2018174771738247/",
-	       "eventbrite_link":"none",
-	       "bitly_link":"http://bit.ly/2yXd4Oc",
-	       "tags":["not-yet-implemented"]
-	     },
-
 			 {
 			        "id":"69e89137-1585-46d5-a984-342e2159dab1",
 			        "title":"Nice Legs (Japan) / Exit III / Idiot Glee",
