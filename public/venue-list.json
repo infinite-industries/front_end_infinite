@@ -96,6 +96,16 @@
 	},
 
 	{
+		"id": "1d43e4c4-c7b4-4916-b2b2-b63058551a07",
+		"name": "New Editions Gallery",
+		"slug": "new_edition",
+		"address": "500 W Short St, Lexington, KY 40507",
+		"g_map_link": "https://goo.gl/maps/8j9WvZUJGkJ2",
+		"createdAt": "2018-11-23T01:08:28.924Z",
+		"updatedAt": "2018-11-23T01:08:28.924Z"
+	},
+
+	{
 		"id": "d4622b69-b6b3-4f50-b389-377901434bb6",
 		"name": "105 W Louden",
 		"slug": "105_louden",
