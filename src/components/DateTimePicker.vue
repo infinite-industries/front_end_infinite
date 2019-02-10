@@ -85,7 +85,7 @@
 
 <script>
 
-  import moment from 'moment'
+  const moment = require('moment-timezone');
 
   export default {
     name: 'date-time-picker',
@@ -173,6 +173,7 @@
         })
       },
       AddTimeSegment: function(){
+        console.log('!!! AddTimeSegment called')
         this.$store.dispatch('AddNewTimeSegment')
         this.time_segment_index = this.$store.getters.GetAllDateTimes.length - 1
         if(this.UpdateTimeSegment(this.time_segment_index)) {
@@ -197,13 +198,17 @@
         // else {
         //   console.log(moment(formated_start_time).format('YYYY-MM-DD HH:mm') + " and " + moment(formated_end_time).format('YYYY-MM-DD HH:mm'))
 
+
+        const zone = moment.tz.guess()
+
+          console.log('!!! dispatch current time segment')
           this.$store.dispatch('UpdateCurrentTimeSegment', {
             current_time_segment: which_segment,
             optional_title: '',   // add later afer consulting with users
-            start_time: moment(formated_start_time).format('YYYY-MM-DD HH:mm:ss'),
-            end_time: moment(formated_end_time).format('YYYY-MM-DD HH:mm:ss')
+            start_time: moment.tz(formated_start_time, zone).format('YYYY-MM-DD HH:mm:ss zz'),
+            end_time: moment.tz(formated_end_time, zone).format('YYYY-MM-DD HH:mm:ss zz')
           })
-
+          console.log('!!! dispatched')
           this.picker = null
           this.introduction = false
           this.edit_mode = false   //if edit mode is active turn it off
@@ -254,17 +259,19 @@
         return this.$store.getters.GetAllDateTimes
       },
       check_start_time: function(){
-        return moment(`${this.picker} ${this.start_hour}:${this.start_minute}:${this.start_ampm}`, `YYYY-MM-DD hh:mm:a`)
+        return Date.now()
+        //return moment.tz(`${this.picker} ${this.start_hour}:${this.start_minute}:${this.start_ampm}`, `YYYY-MM-DD hh:mm:a`)
       },
       check_end_time: function(){
-        let temp_date_time = moment(`${this.picker} ${this.end_hour}:${this.end_minute}:${this.end_ampm}`, `YYYY-MM-DD hh:mm:a`)
-
-        if((this.start_ampm === "pm")&&(this.end_ampm === "am")){
-          return moment(temp_date_time).add(1, 'd')
-        }
-        else{
-          return temp_date_time
-        }
+        return Date.now() + 20
+        // let temp_date_time = moment.tz(`${this.picker} ${this.end_hour}:${this.end_minute}:${this.end_ampm}`, `YYYY-MM-DD hh:mm:a`)
+        //
+        // if((this.start_ampm === "pm")&&(this.end_ampm === "am")){
+        //   return moment(temp_date_time).add(1, 'd')
+        // }
+        // else{
+        //   return temp_date_time
+        // }
       },
       validate_time: function() {
 
