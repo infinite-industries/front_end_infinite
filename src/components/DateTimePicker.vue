@@ -87,6 +87,8 @@
 
   const moment = require('moment-timezone');
 
+  const clientTimeZone = moment.tz.guess()
+
   // this is how the date/time is stored in data and sent to the server
   const dateTimeStorageFormat = 'YYYY-MM-DD HH:mm zz'
 
@@ -123,7 +125,6 @@
 
       /* Converts start and end times stored in data to formatted strings for display in the ui */
       FormattedDateTime: function(start,end) {
-        const clientTimeZone = moment.tz.guess()
         return moment.tz(start, dateTimeStorageFormat, clientTimeZone).format('dddd, MMMM Do, h:mma') + ' - '
           + moment.tz(end, dateTimeStorageFormat, clientTimeZone).format('h:mma')
       },
@@ -190,8 +191,6 @@
 
       },
       UpdateTimeSegment: function(which_segment){
-        const clientTimeZone = moment.tz.guess()
-
         let formated_start_time = this.check_start_time
         let formated_end_time = this.check_end_time
 
@@ -252,12 +251,10 @@
         return this.$store.getters.GetAllDateTimes
       },
       check_start_time: function(){
-        const clientTimeZone = moment.tz.guess()
         return moment.tz(`${this.picker} ${this.start_hour}:${this.start_minute}:${this.start_ampm}`,
           dateTimePickerFormat, clientTimeZone)
       },
       check_end_time: function(){
-        const clientTimeZone = moment.tz.guess()
         let temp_date_time = moment(`${this.picker} ${this.end_hour}:${this.end_minute}:${this.end_ampm}`,
           dateTimePickerFormat, clientTimeZone)
 
