@@ -130,7 +130,6 @@ export const store = new Vuex.Store({
         state.calendar_event.date_times.splice(payload.index,1)
       },
       ADD_NEW_TIME_SEGMENT: (state) => {
-        console.log('!!! creating new empty time segment')
         state.calendar_event.date_times.push({
           optional_title:"",
           start_time:"",
