@@ -2,6 +2,8 @@
 
 Front-end web application for [Infinite Industries](https://infinite.industries).
 
+**Not maintained** Development has moved to [infinite-industries/infinite](https://github.com/infinite-industries/infinite).
+
 ## Features
 
 - **TODO**: someone should fill in this list
