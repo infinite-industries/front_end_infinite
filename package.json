@@ -23,7 +23,7 @@
     "async": "^2.6.0",
     "auth0-js": "^9.5.1",
     "aws-sdk": "^2.281.1",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2015-spread": "^6.22.0",
